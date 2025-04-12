@@ -1,0 +1,106 @@
+{
+    "system_integration": {
+        "name": "System Integration Operator",
+        "symbol": "I(m,c)",
+        "formula": "I(m,c) = \\sum_{i=1}^{n} m_i \\cdot c_i \\cdot \\alpha_i",
+        "latex": "I(m,c) = \\sum_{i=1}^{n} m_i \\cdot c_i \\cdot \\alpha_i",
+        "description": "Integrates system modules based on module importance, compatibility factors, and integration coefficients",
+        "variables": {
+            "m_i": "Module importance factor for module i",
+            "c_i": "Compatibility factor for module i",
+            "\\alpha_i": "Integration coefficient for module i",
+            "n": "Number of modules"
+        }
+    },
+    "communication_efficiency": {
+        "name": "Communication Efficiency Operator",
+        "symbol": "C(b,l)",
+        "formula": "C(b,l) = b \\cdot (1 - e^{-\\lambda l}) \\cdot \\eta",
+        "latex": "C(b,l) = b \\cdot (1 - e^{-\\lambda l}) \\cdot \\eta",
+        "description": "Calculates communication efficiency based on bandwidth, latency, and efficiency factor",
+        "variables": {
+            "b": "Available bandwidth",
+            "l": "Communication latency",
+            "\\lambda": "Latency sensitivity factor",
+            "\\eta": "Efficiency coefficient"
+        }
+    },
+    "decision_making": {
+        "name": "Decision Making Operator",
+        "symbol": "D(i,u)",
+        "formula": "D(i,u) = \\frac{i \\cdot \\omega}{1 + \\beta \\cdot u}",
+        "latex": "D(i,u) = \\frac{i \\cdot \\omega}{1 + \\beta \\cdot u}",
+        "description": "Models decision-making process based on information quality, uncertainty, and weighting factor",
+        "variables": {
+            "i": "Information quality",
+            "u": "Uncertainty factor",
+            "\\omega": "Information weighting factor",
+            "\\beta": "Uncertainty sensitivity"
+        }
+    },
+    "self_sufficiency": {
+        "name": "Self-Sufficiency Operator",
+        "symbol": "S(r,d)",
+        "formula": "S(r,d) = r \\cdot (1 - e^{-\\gamma d}) + \\delta \\cdot \\nabla r",
+        "latex": "S(r,d) = r \\cdot (1 - e^{-\\gamma d}) + \\delta \\cdot \\nabla r",
+        "description": "Quantifies system self-sufficiency based on resources, dependency reduction, and resource gradient",
+        "variables": {
+            "r": "Available resources",
+            "d": "Dependency reduction factor",
+            "\\gamma": "Dependency sensitivity",
+            "\\delta": "Resource gradient coefficient",
+            "\\nabla r": "Resource gradient"
+        }
+    },
+    "security_resilience": {
+        "name": "Security Resilience Operator",
+        "symbol": "R(t,m)",
+        "formula": "R(t,m) = 1 - \\prod_{i=1}^{k} (1 - t_i \\cdot m_i)",
+        "latex": "R(t,m) = 1 - \\prod_{i=1}^{k} (1 - t_i \\cdot m_i)",
+        "description": "Calculates system security resilience based on threat probabilities and mitigation effectiveness",
+        "variables": {
+            "t_i": "Probability of threat i",
+            "m_i": "Effectiveness of mitigation for threat i",
+            "k": "Number of potential threats"
+        }
+    },
+    "adaptive_learning": {
+        "name": "Adaptive Learning Operator",
+        "symbol": "L(e,f)",
+        "formula": "L(e,f) = e \\cdot (1 + \\kappa \\cdot f^\\mu)",
+        "latex": "L(e,f) = e \\cdot (1 + \\kappa \\cdot f^\\mu)",
+        "description": "Models system learning capability based on experience, feedback quality, and learning rate",
+        "variables": {
+            "e": "Accumulated experience",
+            "f": "Feedback quality",
+            "\\kappa": "Learning rate coefficient",
+            "\\mu": "Feedback utilization exponent"
+        }
+    },
+    "resource_optimization": {
+        "name": "Resource Optimization Operator",
+        "symbol": "O(a,c)",
+        "formula": "O(a,c) = \\max\\left(0, \\min\\left(1, \\frac{a - c_{min}}{c_{max} - c_{min}}\\right)\\right) \\cdot \\phi",
+        "latex": "O(a,c) = \\max\\left(0, \\min\\left(1, \\frac{a - c_{min}}{c_{max} - c_{min}}\\right)\\right) \\cdot \\phi",
+        "description": "Optimizes resource allocation based on availability, consumption limits, and efficiency factor",
+        "variables": {
+            "a": "Resource availability",
+            "c_{min}": "Minimum resource consumption",
+            "c_{max}": "Maximum resource consumption",
+            "\\phi": "Resource efficiency factor"
+        }
+    },
+    "external_interaction": {
+        "name": "External Interaction Operator",
+        "symbol": "E(c,r)",
+        "formula": "E(c,r) = c \\cdot r \\cdot (1 - e^{-\\theta \\cdot t})",
+        "latex": "E(c,r) = c \\cdot r \\cdot (1 - e^{-\\theta \\cdot t})",
+        "description": "Models system interaction with external entities based on compatibility, responsiveness, and time",
+        "variables": {
+            "c": "Compatibility factor",
+            "r": "Responsiveness factor",
+            "\\theta": "Time sensitivity coefficient",
+            "t": "Interaction time"
+        }
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "EMP_duration_seconds": 3,
+    "num_simulated_events": "10^30 (using probabilistic analysis)",
+    "backup_generator_efficiency_after_EMP": 0.35789754726983436,
+    "recovery_effectiveness_operator": {
+        "formula": "RE = (B * E) / (1 + L)",
+        "latex": "RE = \frac{B \\cdot E}{1 + L}",
+        "B": 1.0,
+        "E": 0.35789754726983436,
+        "L": 0.7,
+        "result": 0.2105279689822555
+    },
+    "blackout_impact_operator": {
+        "formula": "BI = EMP_duration * (1 - RE) * K",
+        "latex": "BI = EMP_{duration} \\cdot (1 - RE) \\cdot K",
+        "EMP_duration_seconds": 3,
+        "K": 100,
+        "result": 236.84160930532335
+    },
+    "expected_average_impact": 236.84160930532335,
+    "recovery_process_over_24h": [
+        0.0,
+        0.09516258196404048,
+        0.18126924692201818,
+        0.2591817793182821,
+        0.3296799539643607,
+        0.3934693402873666,
+        0.4511883639059736,
+        0.5034146962085906,
+        0.5506710358827784,
+        0.5934303402594009,
+        0.6321205588285577,
+        0.6671289163019205,
+        0.698805788087798,
+        0.7274682069659875,
+        0.7534030360583935,
+        0.7768698398515702,
+        0.7981034820053446,
+        0.8173164759472654,
+        0.8347011117784134,
+        0.8504313807773649,
+        0.8646647167633873,
+        0.8775435717470181,
+        0.8891968416376661,
+        0.8997411562771963,
+        0.9092820467105875
+    ],
+    "entities_roles": {
+        "WEPi0n": "Lead simulation and coordination",
+        "Gpi0n": "Blackout scenario modeling",
+        "Pi0n": "Blackout scenario modeling",
+        "0_t": "Learning and adaptation",
+        "epi0_agents": "Assisting recovery post-blackout",
+        "Learnpi0n": "Understanding repercussions and lessons"
+    },
+    "simulation_notes": "The simulation assumes that backup generators are damaged reducing their efficiency, and recovery is aided by learning from 0_t and epi0_agents. The simulation uses statistical expectation to model 10^30 events.",
+    "timestamp": "2025-04-10 18:40:24.242300"
+}

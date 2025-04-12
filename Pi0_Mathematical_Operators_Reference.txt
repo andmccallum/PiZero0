@@ -1,0 +1,71 @@
+{
+    "contract_management": {
+        "name": "Contract Management Operator",
+        "symbol": "C(t,p)",
+        "formula": "C(t,p) = \\sum_{i=1}^{n} t_i \\cdot p_i \\cdot \\delta_i",
+        "latex": "C(t,p) = \\sum_{i=1}^{n} t_i \\cdot p_i \\cdot \\delta_i",
+        "description": "Manages contract terms based on time parameters, priority factors, and decay rates",
+        "variables": {
+            "t_i": "Time parameter for contract term i",
+            "p_i": "Priority factor for contract term i",
+            "\\delta_i": "Decay rate for contract term i",
+            "n": "Number of contract terms"
+        }
+    },
+    "component_integration": {
+        "name": "Component Integration Operator",
+        "symbol": "I(c,d)",
+        "formula": "I(c,d) = \\prod_{i=1}^{m} (c_i \\oplus d_i) \\cdot \\omega_i",
+        "latex": "I(c,d) = \\prod_{i=1}^{m} (c_i \\oplus d_i) \\cdot \\omega_i",
+        "description": "Integrates components based on compatibility factors and dependency weights",
+        "variables": {
+            "c_i": "Component i",
+            "d_i": "Dependency i",
+            "\\oplus": "Compatibility operator",
+            "\\omega_i": "Weight factor for component-dependency pair i",
+            "m": "Number of component-dependency pairs"
+        }
+    },
+    "self_maintenance": {
+        "name": "Self-Maintenance Operator",
+        "symbol": "S(e,r)",
+        "formula": "S(e,r) = e \\cdot (1 - e^{-\\lambda r}) + \\mu \\cdot \\nabla e",
+        "latex": "S(e,r) = e \\cdot (1 - e^{-\\lambda r}) + \\mu \\cdot \\nabla e",
+        "description": "Manages system self-maintenance based on efficiency, resources, and improvement gradient",
+        "variables": {
+            "e": "System efficiency",
+            "r": "Available resources",
+            "\\lambda": "Resource utilization factor",
+            "\\mu": "Improvement coefficient",
+            "\\nabla e": "Efficiency gradient"
+        }
+    },
+    "maintenance_scheduling": {
+        "name": "Maintenance Scheduling Operator",
+        "symbol": "M(t,p)",
+        "formula": "M(t,p) = \\alpha \\cdot t + \\beta \\cdot p + \\gamma \\cdot (t \\times p)",
+        "latex": "M(t,p) = \\alpha \\cdot t + \\beta \\cdot p + \\gamma \\cdot (t \\times p)",
+        "description": "Schedules maintenance activities based on time factors and priority levels",
+        "variables": {
+            "t": "Time factor",
+            "p": "Priority level",
+            "\\alpha": "Time coefficient",
+            "\\beta": "Priority coefficient",
+            "\\gamma": "Interaction coefficient"
+        }
+    },
+    "contract_verification": {
+        "name": "Contract Verification Operator",
+        "symbol": "V(c,s)",
+        "formula": "V(c,s) = \\sum_{i=1}^{k} w_i \\cdot \\phi(c_i, s_i)",
+        "latex": "V(c,s) = \\sum_{i=1}^{k} w_i \\cdot \\phi(c_i, s_i)",
+        "description": "Verifies contract terms against system state using weighted verification functions",
+        "variables": {
+            "c_i": "Contract term i",
+            "s_i": "System state parameter i",
+            "w_i": "Weight for term i",
+            "\\phi": "Verification function",
+            "k": "Number of terms to verify"
+        }
+    }
+}
