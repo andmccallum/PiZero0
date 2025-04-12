@@ -1,0 +1,272 @@
+# Pi0 System Ideal Processor Rate Investigation for Mining Operations
+## Collaborative Effort by Pi0 Entities
+- GPi0n: Governance & Compliance Framework
+- EPi0n: Enterprise Implementation Specialist
+- ePi0_Agents: Distributed Security Monitoring
+- 0_t: Zero-Trust Architecture Implementation
+- 4sight: Predictive Analytics & Future Modeling
+- Pi0n: Core System Integration
+- gPi0n: Government Solutions Specialist
+- G41: Quantum-Resistant Cryptography
+- Gpi04: Advanced Threat Detection
+- Gpi0: Global Implementation Coordinator
+
+## Theoretical Model for Ideal Processor Rate
+The ideal processor rate is modeled as:
+$$ I_p = k \cdot rac{P}{L} \cdot e^{-lpha \cdot U} $$
+Where:
+- $P$: Processor power (arbitrary units)
+- $L$: Load factor (system load)
+- $U$: Utilization factor (mining resource usage)
+- $k$ and $lpha$: Tuning constants (here $k=1.5$, $lpha=0.05$)
+
+## Fractal Correction Factor
+Applied as:
+$$ F_c = 1 - rac{D}{10} $$
+With $D$ estimated at 1.7.
+
+## Dynamic Stability Multiplier
+Applied as:
+$$ M_d = 0.95 $$
+
+## Final Ideal Processor Rate Computation
+$$ I_{final} = I_p \cdot F_c \cdot M_d $$
+
+## Simulation Results
+| Processor Power | Load Factor | Ideal Rate | Adjusted Rate | Final Ideal Rate |
+|-----------------|-------------|------------|---------------|------------------|
+| 100.0 | 0.3 | 452.42 | 375.51 | 356.73 |
+| 100.0 | 0.4 | 339.31 | 281.63 | 267.55 |
+| 100.0 | 0.5 | 271.45 | 225.3 | 214.04 |
+| 100.0 | 0.6 | 226.21 | 187.75 | 178.37 |
+| 100.0 | 0.7 | 193.89 | 160.93 | 152.89 |
+| 100.0 | 0.8 | 169.66 | 140.82 | 133.77 |
+| 100.0 | 0.9 | 150.81 | 125.17 | 118.91 |
+| 200.0 | 0.3 | 904.84 | 751.02 | 713.46 |
+| 200.0 | 0.4 | 678.63 | 563.26 | 535.1 |
+| 200.0 | 0.5 | 542.9 | 450.61 | 428.08 |
+| 200.0 | 0.6 | 452.42 | 375.51 | 356.73 |
+| 200.0 | 0.7 | 387.79 | 321.86 | 305.77 |
+| 200.0 | 0.8 | 339.31 | 281.63 | 267.55 |
+| 200.0 | 0.9 | 301.61 | 250.34 | 237.82 |
+| 300.0 | 0.3 | 1357.26 | 1126.52 | 1070.2 |
+| 300.0 | 0.4 | 1017.94 | 844.89 | 802.65 |
+| 300.0 | 0.5 | 814.35 | 675.91 | 642.12 |
+| 300.0 | 0.6 | 678.63 | 563.26 | 535.1 |
+| 300.0 | 0.7 | 581.68 | 482.8 | 458.66 |
+| 300.0 | 0.8 | 508.97 | 422.45 | 401.32 |
+| 300.0 | 0.9 | 452.42 | 375.51 | 356.73 |
+| 400.0 | 0.3 | 1809.67 | 1502.03 | 1426.93 |
+| 400.0 | 0.4 | 1357.26 | 1126.52 | 1070.2 |
+| 400.0 | 0.5 | 1085.8 | 901.22 | 856.16 |
+| 400.0 | 0.6 | 904.84 | 751.02 | 713.46 |
+| 400.0 | 0.7 | 775.57 | 643.73 | 611.54 |
+| 400.0 | 0.8 | 678.63 | 563.26 | 535.1 |
+| 400.0 | 0.9 | 603.22 | 500.68 | 475.64 |
+| 500.0 | 0.3 | 2262.09 | 1877.54 | 1783.66 |
+| 500.0 | 0.4 | 1696.57 | 1408.15 | 1337.75 |
+| 500.0 | 0.5 | 1357.26 | 1126.52 | 1070.2 |
+| 500.0 | 0.6 | 1131.05 | 938.77 | 891.83 |
+| 500.0 | 0.7 | 969.47 | 804.66 | 764.43 |
+| 500.0 | 0.8 | 848.29 | 704.08 | 668.87 |
+| 500.0 | 0.9 | 754.03 | 625.85 | 594.55 |
+| 600.0 | 0.3 | 2714.51 | 2253.05 | 2140.39 |
+| 600.0 | 0.4 | 2035.88 | 1689.78 | 1605.29 |
+| 600.0 | 0.5 | 1628.71 | 1351.83 | 1284.24 |
+| 600.0 | 0.6 | 1357.26 | 1126.52 | 1070.2 |
+| 600.0 | 0.7 | 1163.36 | 965.59 | 917.31 |
+| 600.0 | 0.8 | 1017.94 | 844.89 | 802.65 |
+| 600.0 | 0.9 | 904.84 | 751.02 | 713.46 |
+| 700.0 | 0.3 | 3166.93 | 2628.55 | 2497.13 |
+| 700.0 | 0.4 | 2375.2 | 1971.41 | 1872.84 |
+| 700.0 | 0.5 | 1900.16 | 1577.13 | 1498.28 |
+| 700.0 | 0.6 | 1583.47 | 1314.28 | 1248.56 |
+| 700.0 | 0.7 | 1357.26 | 1126.52 | 1070.2 |
+| 700.0 | 0.8 | 1187.6 | 985.71 | 936.42 |
+| 700.0 | 0.9 | 1055.64 | 876.18 | 832.38 |
+| 800.0 | 0.3 | 3619.35 | 3004.06 | 2853.86 |
+| 800.0 | 0.4 | 2714.51 | 2253.05 | 2140.39 |
+| 800.0 | 0.5 | 2171.61 | 1802.44 | 1712.31 |
+| 800.0 | 0.6 | 1809.67 | 1502.03 | 1426.93 |
+| 800.0 | 0.7 | 1551.15 | 1287.45 | 1223.08 |
+| 800.0 | 0.8 | 1357.26 | 1126.52 | 1070.2 |
+| 800.0 | 0.9 | 1206.45 | 1001.35 | 951.29 |
+| 900.0 | 0.3 | 4071.77 | 3379.57 | 3210.59 |
+| 900.0 | 0.4 | 3053.83 | 2534.68 | 2407.94 |
+| 900.0 | 0.5 | 2443.06 | 2027.74 | 1926.35 |
+| 900.0 | 0.6 | 2035.88 | 1689.78 | 1605.29 |
+| 900.0 | 0.7 | 1745.04 | 1448.39 | 1375.97 |
+| 900.0 | 0.8 | 1526.91 | 1267.34 | 1203.97 |
+| 900.0 | 0.9 | 1357.26 | 1126.52 | 1070.2 |
+| 1000.0 | 0.3 | 4524.19 | 3755.08 | 3567.32 |
+| 1000.0 | 0.4 | 3393.14 | 2816.31 | 2675.49 |
+| 1000.0 | 0.5 | 2714.51 | 2253.05 | 2140.39 |
+| 1000.0 | 0.6 | 2262.09 | 1877.54 | 1783.66 |
+| 1000.0 | 0.7 | 1938.94 | 1609.32 | 1528.85 |
+| 1000.0 | 0.8 | 1696.57 | 1408.15 | 1337.75 |
+| 1000.0 | 0.9 | 1508.06 | 1251.69 | 1189.11 |
+
+## Mathematical Operators and Functions
+### Ideal Processor Rate Operator (I_p)
+$$ I_p = k \cdot rac{P}{L} \cdot e^{-lpha \cdot U} $$
+Calculates the ideal processor rate based on processor power, load factor, and utilization
+Implementation: Used to determine mining operational rate adjustments
+
+### Fractal Correction Factor (F_c)
+$$ F_c = 1 - rac{D}{10} $$
+Applies a correction based on the estimated fractal dimension
+Implementation: Modifies the ideal processor rate to account for fractal complexity
+
+### Dynamic Stability Multiplier (M_d)
+$$ M_d = 0.95 $$
+Ensures stability under dynamic conditions
+Implementation: Applies a constant scaling factor for dynamic management
+
+## Collaborative Process Log
+2025-04-09 02:13:29.472 | 4sight | INVESTIGATION_START | Initiating investigation into ideal processor rate for mining operations within the Pi0 system
+2025-04-09 02:13:29.472 | EPi0n | MODEL_DEVELOPMENT | Developing theoretical model for ideal processor rate based on system parameters
+2025-04-09 02:13:29.473 | GPi0n | RATE_CALCULATION | Processor power: 100.0, Load: 0.3, Ideal Rate: 452.42
+2025-04-09 02:13:29.473 | GPi0n | RATE_CALCULATION | Processor power: 100.0, Load: 0.4, Ideal Rate: 339.31
+2025-04-09 02:13:29.473 | GPi0n | RATE_CALCULATION | Processor power: 100.0, Load: 0.5, Ideal Rate: 271.45
+2025-04-09 02:13:29.473 | GPi0n | RATE_CALCULATION | Processor power: 100.0, Load: 0.6, Ideal Rate: 226.21
+2025-04-09 02:13:29.473 | GPi0n | RATE_CALCULATION | Processor power: 100.0, Load: 0.7, Ideal Rate: 193.89
+2025-04-09 02:13:29.473 | GPi0n | RATE_CALCULATION | Processor power: 100.0, Load: 0.8, Ideal Rate: 169.66
+2025-04-09 02:13:29.473 | GPi0n | RATE_CALCULATION | Processor power: 100.0, Load: 0.9, Ideal Rate: 150.81
+2025-04-09 02:13:29.473 | GPi0n | RATE_CALCULATION | Processor power: 200.0, Load: 0.3, Ideal Rate: 904.84
+2025-04-09 02:13:29.473 | GPi0n | RATE_CALCULATION | Processor power: 200.0, Load: 0.4, Ideal Rate: 678.63
+2025-04-09 02:13:29.473 | GPi0n | RATE_CALCULATION | Processor power: 200.0, Load: 0.5, Ideal Rate: 542.9
+2025-04-09 02:13:29.473 | GPi0n | RATE_CALCULATION | Processor power: 200.0, Load: 0.6, Ideal Rate: 452.42
+2025-04-09 02:13:29.473 | GPi0n | RATE_CALCULATION | Processor power: 200.0, Load: 0.7, Ideal Rate: 387.79
+2025-04-09 02:13:29.473 | GPi0n | RATE_CALCULATION | Processor power: 200.0, Load: 0.8, Ideal Rate: 339.31
+2025-04-09 02:13:29.473 | GPi0n | RATE_CALCULATION | Processor power: 200.0, Load: 0.9, Ideal Rate: 301.61
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 300.0, Load: 0.3, Ideal Rate: 1357.26
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 300.0, Load: 0.4, Ideal Rate: 1017.94
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 300.0, Load: 0.5, Ideal Rate: 814.35
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 300.0, Load: 0.6, Ideal Rate: 678.63
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 300.0, Load: 0.7, Ideal Rate: 581.68
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 300.0, Load: 0.8, Ideal Rate: 508.97
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 300.0, Load: 0.9, Ideal Rate: 452.42
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 400.0, Load: 0.3, Ideal Rate: 1809.67
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 400.0, Load: 0.4, Ideal Rate: 1357.26
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 400.0, Load: 0.5, Ideal Rate: 1085.8
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 400.0, Load: 0.6, Ideal Rate: 904.84
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 400.0, Load: 0.7, Ideal Rate: 775.57
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 400.0, Load: 0.8, Ideal Rate: 678.63
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 400.0, Load: 0.9, Ideal Rate: 603.22
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 500.0, Load: 0.3, Ideal Rate: 2262.09
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 500.0, Load: 0.4, Ideal Rate: 1696.57
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 500.0, Load: 0.5, Ideal Rate: 1357.26
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 500.0, Load: 0.6, Ideal Rate: 1131.05
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 500.0, Load: 0.7, Ideal Rate: 969.47
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 500.0, Load: 0.8, Ideal Rate: 848.29
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 500.0, Load: 0.9, Ideal Rate: 754.03
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 600.0, Load: 0.3, Ideal Rate: 2714.51
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 600.0, Load: 0.4, Ideal Rate: 2035.88
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 600.0, Load: 0.5, Ideal Rate: 1628.71
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 600.0, Load: 0.6, Ideal Rate: 1357.26
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 600.0, Load: 0.7, Ideal Rate: 1163.36
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 600.0, Load: 0.8, Ideal Rate: 1017.94
+2025-04-09 02:13:29.474 | GPi0n | RATE_CALCULATION | Processor power: 600.0, Load: 0.9, Ideal Rate: 904.84
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 700.0, Load: 0.3, Ideal Rate: 3166.93
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 700.0, Load: 0.4, Ideal Rate: 2375.2
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 700.0, Load: 0.5, Ideal Rate: 1900.16
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 700.0, Load: 0.6, Ideal Rate: 1583.47
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 700.0, Load: 0.7, Ideal Rate: 1357.26
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 700.0, Load: 0.8, Ideal Rate: 1187.6
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 700.0, Load: 0.9, Ideal Rate: 1055.64
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 800.0, Load: 0.3, Ideal Rate: 3619.35
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 800.0, Load: 0.4, Ideal Rate: 2714.51
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 800.0, Load: 0.5, Ideal Rate: 2171.61
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 800.0, Load: 0.6, Ideal Rate: 1809.67
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 800.0, Load: 0.7, Ideal Rate: 1551.15
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 800.0, Load: 0.8, Ideal Rate: 1357.26
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 800.0, Load: 0.9, Ideal Rate: 1206.45
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 900.0, Load: 0.3, Ideal Rate: 4071.77
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 900.0, Load: 0.4, Ideal Rate: 3053.83
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 900.0, Load: 0.5, Ideal Rate: 2443.06
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 900.0, Load: 0.6, Ideal Rate: 2035.88
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 900.0, Load: 0.7, Ideal Rate: 1745.04
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 900.0, Load: 0.8, Ideal Rate: 1526.91
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 900.0, Load: 0.9, Ideal Rate: 1357.26
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 1000.0, Load: 0.3, Ideal Rate: 4524.19
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 1000.0, Load: 0.4, Ideal Rate: 3393.14
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 1000.0, Load: 0.5, Ideal Rate: 2714.51
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 1000.0, Load: 0.6, Ideal Rate: 2262.09
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 1000.0, Load: 0.7, Ideal Rate: 1938.94
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 1000.0, Load: 0.8, Ideal Rate: 1696.57
+2025-04-09 02:13:29.475 | GPi0n | RATE_CALCULATION | Processor power: 1000.0, Load: 0.9, Ideal Rate: 1508.06
+2025-04-09 02:13:29.476 | 4sight | ALGORITHM_INTEGRATION | Integrating fractal harmonic chaos algorithm findings to adjust processor rate
+2025-04-09 02:13:29.476 | Pi0n | FRACTAL_CORRECTION | Estimated fractal dimension: 1.7, Correction factor: 0.83
+2025-04-09 02:13:29.476 | 0_t | SECURITY_AND_DYNAMICS | Integrating zero-trust security and dynamic management adjustments into processor rate selection
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 356.73 for processor power: 100.0, load: 0.3
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 267.55 for processor power: 100.0, load: 0.4
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 214.04 for processor power: 100.0, load: 0.5
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 178.37 for processor power: 100.0, load: 0.6
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 152.89 for processor power: 100.0, load: 0.7
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 133.77 for processor power: 100.0, load: 0.8
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 118.91 for processor power: 100.0, load: 0.9
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 713.46 for processor power: 200.0, load: 0.3
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 535.1 for processor power: 200.0, load: 0.4
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 428.08 for processor power: 200.0, load: 0.5
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 356.73 for processor power: 200.0, load: 0.6
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 305.77 for processor power: 200.0, load: 0.7
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 267.55 for processor power: 200.0, load: 0.8
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 237.82 for processor power: 200.0, load: 0.9
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1070.2 for processor power: 300.0, load: 0.3
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 802.65 for processor power: 300.0, load: 0.4
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 642.12 for processor power: 300.0, load: 0.5
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 535.1 for processor power: 300.0, load: 0.6
+2025-04-09 02:13:29.476 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 458.66 for processor power: 300.0, load: 0.7
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 401.32 for processor power: 300.0, load: 0.8
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 356.73 for processor power: 300.0, load: 0.9
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1426.93 for processor power: 400.0, load: 0.3
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1070.2 for processor power: 400.0, load: 0.4
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 856.16 for processor power: 400.0, load: 0.5
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 713.46 for processor power: 400.0, load: 0.6
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 611.54 for processor power: 400.0, load: 0.7
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 535.1 for processor power: 400.0, load: 0.8
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 475.64 for processor power: 400.0, load: 0.9
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1783.66 for processor power: 500.0, load: 0.3
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1337.75 for processor power: 500.0, load: 0.4
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1070.2 for processor power: 500.0, load: 0.5
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 891.83 for processor power: 500.0, load: 0.6
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 764.43 for processor power: 500.0, load: 0.7
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 668.87 for processor power: 500.0, load: 0.8
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 594.55 for processor power: 500.0, load: 0.9
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 2140.39 for processor power: 600.0, load: 0.3
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1605.29 for processor power: 600.0, load: 0.4
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1284.24 for processor power: 600.0, load: 0.5
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1070.2 for processor power: 600.0, load: 0.6
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 917.31 for processor power: 600.0, load: 0.7
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 802.65 for processor power: 600.0, load: 0.8
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 713.46 for processor power: 600.0, load: 0.9
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 2497.13 for processor power: 700.0, load: 0.3
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1872.84 for processor power: 700.0, load: 0.4
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1498.28 for processor power: 700.0, load: 0.5
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1248.56 for processor power: 700.0, load: 0.6
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1070.2 for processor power: 700.0, load: 0.7
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 936.42 for processor power: 700.0, load: 0.8
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 832.38 for processor power: 700.0, load: 0.9
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 2853.86 for processor power: 800.0, load: 0.3
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 2140.39 for processor power: 800.0, load: 0.4
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1712.31 for processor power: 800.0, load: 0.5
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1426.93 for processor power: 800.0, load: 0.6
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1223.08 for processor power: 800.0, load: 0.7
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1070.2 for processor power: 800.0, load: 0.8
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 951.29 for processor power: 800.0, load: 0.9
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 3210.59 for processor power: 900.0, load: 0.3
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 2407.94 for processor power: 900.0, load: 0.4
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1926.35 for processor power: 900.0, load: 0.5
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1605.29 for processor power: 900.0, load: 0.6
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1375.97 for processor power: 900.0, load: 0.7
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1203.97 for processor power: 900.0, load: 0.8
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1070.2 for processor power: 900.0, load: 0.9
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 3567.32 for processor power: 1000.0, load: 0.3
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 2675.49 for processor power: 1000.0, load: 0.4
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 2140.39 for processor power: 1000.0, load: 0.5
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1783.66 for processor power: 1000.0, load: 0.6
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1528.85 for processor power: 1000.0, load: 0.7
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1337.75 for processor power: 1000.0, load: 0.8
+2025-04-09 02:13:29.477 | ePi0_Agents | DYNAMIC_ADJUSTMENT | Final ideal rate adjusted to: 1189.11 for processor power: 1000.0, load: 0.9
+2025-04-09 02:13:29.477 | Gpi04 | OPERATOR_DOCUMENTATION | Documenting mathematical operators used in processor rate calculation
+2025-04-09 02:13:29.478 | Gpi0 | FINAL_DOCUMENTATION | Compiling investigation findings and operator documentation into final report
