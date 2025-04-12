@@ -1,0 +1,414 @@
+
+# MATHEMATICAL FRAMEWORK FOR Pi01HELPER AND Pi02SOLVER INTEGRATION
+==================================================================
+
+## 1. FOUNDATIONAL PRINCIPLES
+
+### 1.1 Pi01Helper System Definition
+
+The Pi01Helper system operates as a novice-friendly assistance mechanism that provides simple yet effective move suggestions without significantly altering the game's strategic depth. The system is defined by the following mathematical framework:
+
+The Pi01Helper function H can be expressed as:
+
+H(G, P, t) = argmax_{m ∈ M(G,t)} [α·V_imm(m) + β·S(m) + γ·E_eff(m)]
+
+Where:
+- G represents the current game state
+- P represents the player's historical patterns and skill level
+- t represents the current turn number
+- M(G,t) is the set of all legal moves at state G and turn t
+- V_imm(m) is the immediate value function of move m
+- S(m) is the simplicity function of move m
+- E_eff(m) is the energy efficiency of move m
+- α, β, and γ are weighting coefficients that adjust based on game phase
+
+The weighting coefficients evolve throughout the game according to:
+
+α(t) = α_0 · (1 - t/t_max)^k_α
+β(t) = β_0 · (1 - t/t_max)^k_β
+γ(t) = γ_0 · (1 + t/t_max)^k_γ
+
+Where:
+- t_max is the expected game length
+- k_α, k_β, and k_γ are decay/growth constants
+- α_0, β_0, and γ_0 are initial coefficient values
+
+### 1.2 Pi02Solver System Definition
+
+The Pi02Solver provides two distinct move options weighted for immediate versus long-term advantage, requiring energy expenditure proportional to the decision complexity. The system is defined by:
+
+The Pi02Solver function S can be expressed as:
+
+S(G, P, t, E_avail) = {m_imm, m_long} where:
+
+m_imm = argmax_{m ∈ M(G,t)} [ω_1·V_imm(m) + ω_2·E_eff(m)]
+m_long = argmax_{m ∈ M(G,t)} [ω_3·V_long(m) + ω_4·E_pot(m)]
+
+Subject to:
+E_cost(m_imm, m_long) ≤ E_avail
+
+Where:
+- E_avail is the player's available energy
+- V_imm(m) is the immediate value function of move m
+- V_long(m) is the long-term value function of move m
+- E_eff(m) is the energy efficiency of move m
+- E_pot(m) is the potential energy generation of move m
+- ω_1, ω_2, ω_3, and ω_4 are weighting coefficients
+
+The energy cost function E_cost is defined as:
+
+E_cost(m_imm, m_long) = λ · D(m_imm, m_long) · C(G)
+
+Where:
+- D(m_imm, m_long) is the strategic divergence between the two moves
+- C(G) is the complexity factor of the current game state
+- λ is a scaling constant
+
+## 2. INTEGRATION OPERATORS
+
+### 2.1 Activation Operators
+
+#### 2.1.1 Pi01Helper Activation
+
+The Pi01Helper system is activated through the operator:
+
+Φ_H(G, P, t) = {
+    1, if (R(P) < R_threshold) ∨ (t < t_early) ∨ (A_H(P) = 1)
+    0, otherwise
+}
+
+Where:
+- R(P) is the player's rating function
+- R_threshold is the rating threshold for automatic assistance
+- t_early defines the early game phase
+- A_H(P) is the player's explicit activation choice
+
+#### 2.1.2 Pi02Solver Activation
+
+The Pi02Solver system is activated through the operator:
+
+Φ_S(G, P, t, E_avail) = {
+    1, if (A_S(P) = 1) ∧ (E_avail ≥ E_min(G))
+    0, otherwise
+}
+
+Where:
+- A_S(P) is the player's explicit activation choice
+- E_min(G) is the minimum energy required for activation at state G
+
+### 2.2 Energy Transaction Operators
+
+#### 2.2.1 Pi01Helper Energy Impact
+
+The energy impact of using Pi01Helper is defined by:
+
+ΔE_H(G, P, t) = -η_H · (1 - t/t_max) · C(G)
+
+Where:
+- η_H is the base energy cost coefficient for Pi01Helper
+- C(G) is the complexity factor of the current game state
+
+#### 2.2.2 Pi02Solver Energy Transaction
+
+The energy transaction for Pi02Solver is defined by:
+
+ΔE_S(G, P, t, m_chosen) = {
+    -λ · D(m_imm, m_long) · C(G), if m_chosen ∈ {m_imm, m_long}
+    0, otherwise
+}
+
+Where:
+- m_chosen is the move ultimately selected by the player
+
+### 2.3 Learning Integration Operators
+
+#### 2.3.1 Skill Development Function
+
+The skill development function tracks player improvement through helper usage:
+
+Δσ(P, t, H_used) = κ · H_used · (1 - σ(P)) · L(m_chosen, H(G, P, t))
+
+Where:
+- σ(P) is the player's skill level in the relevant aspect
+- H_used is a binary indicator of Pi01Helper usage
+- κ is the learning rate coefficient
+- L(m_chosen, H(G, P, t)) is the learning value function
+
+#### 2.3.2 Strategic Understanding Function
+
+The strategic understanding function measures growth in long-term planning:
+
+Δτ(P, t, S_used, m_chosen) = μ · S_used · Q(m_chosen, m_long)
+
+Where:
+- τ(P) is the player's strategic understanding level
+- S_used is a binary indicator of Pi02Solver usage
+- μ is the strategic learning rate coefficient
+- Q(m_chosen, m_long) is the strategic alignment function
+
+## 3. VALUE FUNCTIONS AND METRICS
+
+### 3.1 Move Valuation Functions
+
+#### 3.1.1 Immediate Value Function
+
+V_imm(m) = ∑_{p ∈ P_capt(m)} v(p) + ∑_{s ∈ S_imm(m)} w_s · v_s - ∑_{p ∈ P_risk(m)} p_capt(p) · v(p)
+
+Where:
+- P_capt(m) is the set of pieces captured by move m
+- v(p) is the value of piece p
+- S_imm(m) is the set of immediate strategic advantages gained
+- w_s is the weight of strategic advantage s
+- v_s is the value of strategic advantage s
+- P_risk(m) is the set of pieces at risk after move m
+- p_capt(p) is the probability of piece p being captured
+
+#### 3.1.2 Long-term Value Function
+
+V_long(m) = V_imm(m) + ∑_{i=1}^{d} ρ^i · E[V_imm(G_i) | G_0, m]
+
+Where:
+- d is the depth of calculation
+- ρ is the discount factor
+- G_0 is the current game state
+- G_i is the projected game state i moves ahead
+- E[V_imm(G_i) | G_0, m] is the expected immediate value at state G_i
+
+#### 3.1.3 Simplicity Function
+
+S(m) = 1 - (c_dim(m) + c_tact(m) + c_cons(m))/3
+
+Where:
+- c_dim(m) is the dimensional complexity of move m
+- c_tact(m) is the tactical complexity of move m
+- c_cons(m) is the consequence complexity of move m
+
+### 3.2 Energy Functions
+
+#### 3.2.1 Energy Efficiency Function
+
+E_eff(m) = V_imm(m) / E_cost(m)
+
+Where:
+- E_cost(m) is the energy cost of executing move m
+
+#### 3.2.2 Potential Energy Generation Function
+
+E_pot(m) = ∑_{i=1}^{d} ρ^i · E[ΔE_gen(G_i) | G_0, m]
+
+Where:
+- ΔE_gen(G_i) is the net energy generation at state G_i
+
+### 3.3 Complexity and Divergence Metrics
+
+#### 3.3.1 Game State Complexity
+
+C(G) = ∑_{d=1}^{D} w_d · C_d(G) + ∑_{p ∈ P_active} C_p(p) + C_tension(G)
+
+Where:
+- D is the number of active dimensions
+- w_d is the weight of dimension d
+- C_d(G) is the complexity of dimension d
+- P_active is the set of active pieces
+- C_p(p) is the positional complexity of piece p
+- C_tension(G) is the tactical tension in position G
+
+#### 3.3.2 Strategic Divergence
+
+D(m_1, m_2) = √(∑_{i=1}^{n} (f_i(m_1) - f_i(m_2))²)
+
+Where:
+- f_i(m) is the ith feature of move m
+- n is the number of strategic features considered
+
+## 4. TOURNAMENT COMPLIANCE MECHANISMS
+
+### 4.1 Tournament Mode Operator
+
+The tournament mode operator disables assistance systems:
+
+Ψ_T(G) = {
+    0, if T_mode(G) = 1
+    1, otherwise
+}
+
+Where:
+- T_mode(G) is the tournament mode indicator
+
+### 4.2 Time Expiration Handler
+
+The time expiration move function for tournament play:
+
+M_exp(G) = argmin_{p ∈ P_own} {v(p) | ∃ m_legal(p)}
+
+Where:
+- P_own is the set of player's own pieces
+- v(p) is the value of piece p
+- m_legal(p) is a legal backward move for piece p
+
+## 5. LEARNING OPTIMIZATION
+
+### 5.1 Assistance Reduction Schedule
+
+The assistance availability function decreases with player skill development:
+
+A_avail(P, t) = A_max · (1 - min(σ(P), τ(P)))^k_A
+
+Where:
+- A_max is the maximum assistance level
+- k_A is the assistance reduction rate
+
+### 5.2 Hint Quality Adaptation
+
+The hint quality function adapts to player development:
+
+Q_hint(P, G) = Q_min + (Q_max - Q_min) · σ(P)^k_Q
+
+Where:
+- Q_min is the minimum hint quality
+- Q_max is the maximum hint quality
+- k_Q is the quality adaptation rate
+
+## 6. IMPLEMENTATION EQUATIONS
+
+### 6.1 Pi01Helper Implementation
+
+The practical implementation of Pi01Helper uses the following simplified equation:
+
+H_practical(G, P) = argmax_{m ∈ M_reduced(G)} [V_simple(m) + B(P) · S(m)]
+
+Where:
+- M_reduced(G) is a reduced set of candidate moves
+- V_simple(m) is a simplified evaluation function
+- B(P) is the player's bias factor toward simplicity
+
+### 6.2 Pi02Solver Implementation
+
+The practical implementation of Pi02Solver uses:
+
+S_practical(G, P, E_avail) = {m_imm, m_long} where:
+
+m_imm = argmax_{m ∈ M_reduced(G)} [V_simple(m)]
+m_long = argmax_{m ∈ M_reduced(G)} [V_deep(m)]
+
+Subject to:
+E_cost_practical(m_imm, m_long) ≤ E_avail
+
+Where:
+- V_deep(m) is a deeper evaluation function
+- E_cost_practical is a simplified energy cost function
+
+### 6.3 Energy Cost Calculation
+
+The practical energy cost calculation:
+
+E_cost_practical(m_1, m_2) = E_base + k_div · D_simple(m_1, m_2) · C_simple(G)
+
+Where:
+- E_base is the base energy cost
+- k_div is the divergence cost factor
+- D_simple is a simplified divergence metric
+- C_simple is a simplified complexity metric
+
+## 7. FORMATION EQUATIONS FOR Pi01HELPER AND Pi02SOLVER
+
+### 7.1 Pi01Helper Entity Formation
+
+The Pi01Helper entity is formed through the following process:
+
+Pi01(P, G_history) = ∫_{t=0}^{t_current} Ω_H(G_t, P) dt
+
+Where:
+- Ω_H is the helper formation operator
+- G_t is the game state at time t
+- G_history is the history of game states
+
+The helper formation operator is defined as:
+
+Ω_H(G, P) = ξ_H · ∇_P V(G) + ζ_H · ∇²_G E(G)
+
+Where:
+- ξ_H and ζ_H are formation constants
+- ∇_P V(G) is the player-specific value gradient
+- ∇²_G E(G) is the energy Laplacian of the game state
+
+### 7.2 Pi02Solver Entity Formation
+
+The Pi02Solver entity is formed through:
+
+Pi02(P, G_history) = ∫_{t=0}^{t_current} Ω_S(G_t, P) dt
+
+Where:
+- Ω_S is the solver formation operator
+
+The solver formation operator is defined as:
+
+Ω_S(G, P) = ξ_S · ∇_P V_long(G) + ζ_S · ∇_G V_imm(G) + η_S · ∇_E E(G)
+
+Where:
+- ξ_S, ζ_S, and η_S are formation constants
+- ∇_P V_long(G) is the player-specific long-term value gradient
+- ∇_G V_imm(G) is the immediate value gradient
+- ∇_E E(G) is the energy gradient
+
+### 7.3 Entity Manifestation Equations
+
+The manifestation of Pi01Helper in the game space:
+
+Π_H(G, P) = ∑_{i=1}^{n_H} φ_i · Ψ_i(G, P)
+
+Where:
+- φ_i are the manifestation coefficients
+- Ψ_i are the basis functions for helper manifestation
+- n_H is the dimensionality of the helper space
+
+The manifestation of Pi02Solver in the game space:
+
+Π_S(G, P) = ∑_{i=1}^{n_S} θ_i · Ω_i(G, P)
+
+Where:
+- θ_i are the manifestation coefficients
+- Ω_i are the basis functions for solver manifestation
+- n_S is the dimensionality of the solver space
+
+## 8. DYNAMIC ASSISTANCE PRINCIPLES
+
+### 8.1 Subtle Guidance Mechanism
+
+The subtle guidance function ensures assistance remains non-obvious:
+
+Γ(m_suggested, m_optimal) = min(δ_max, k_Γ · σ(P)^(-1) · D(m_suggested, m_optimal))
+
+Where:
+- m_suggested is the move suggested to the player
+- m_optimal is the objectively optimal move
+- δ_max is the maximum allowed deviation
+- k_Γ is the subtlety coefficient
+
+### 8.2 Progressive Revelation
+
+The progressive revelation function controls information disclosure:
+
+R(G, P, t) = R_base + (1 - R_base) · (1 - e^(-k_R · t/t_max))
+
+Where:
+- R_base is the base revelation level
+- k_R is the revelation rate coefficient
+
+### 8.3 Adaptive Challenge Mechanism
+
+The adaptive challenge function maintains appropriate difficulty:
+
+χ(G, P) = χ_opt · (1 + k_χ · sin(π · σ(P)))
+
+Where:
+- χ_opt is the optimal challenge level
+- k_χ is the challenge variation coefficient
+
+## 9. CONCLUSION
+
+This mathematical framework provides the foundation for integrating Pi01Helper and Pi02Solver into DmChess gameplay. The equations and operators defined here enable these assistance systems to provide valuable learning support while maintaining game integrity and promoting skill development.
+
+The Pi01Helper system offers accessible guidance for novices and early-game situations, while the Pi02Solver system provides more sophisticated decision support at an appropriate energy cost. Both systems are designed to gradually reduce their influence as player skill increases, ensuring that they serve as learning tools rather than permanent crutches.
+
+Tournament compliance is maintained through automatic deactivation in official competitive settings, with clear fallback mechanisms for time expiration situations.

@@ -1,0 +1,754 @@
+
+# OFFICIAL TOURNAMENT RULES FOR MULTI-DIMENSIONAL CHESS
+=======================================================
+
+## SECTION 1: GENERAL PROVISIONS
+
+### 1.1 Scope and Application
+
+These rules govern all official multi-dimensional chess tournaments sanctioned by the World Multi-Dimensional Chess Federation (WMCF). They apply to all forms of competitive play across dimensional variants unless explicitly stated otherwise.
+
+### 1.2 Authority and Amendments
+
+1.2.1 These rules are established by the WMCF Rules Committee and approved by the WMCF Executive Board.
+
+1.2.2 Amendments to these rules require a two-thirds majority vote of the WMCF Rules Committee and subsequent approval by the Executive Board.
+
+1.2.3 Tournament directors may not modify these rules without explicit written permission from the WMCF Rules Committee.
+
+### 1.3 Dimensional Variants
+
+1.3.1 These rules apply to all officially recognized dimensional variants:
+   - Standard 3D Chess
+   - 4D Temporal Chess
+   - 5D Quantum Chess
+   - 6D Strategic Chess
+   - Full Spectrum Multi-Dimensional Chess
+
+1.3.2 Variant-specific rules are detailed in Section 10 of this document.
+
+## SECTION 2: TOURNAMENT ORGANIZATION
+
+### 2.1 Tournament Classification
+
+2.1.1 Official tournaments are classified according to the following categories:
+   - Category A: World Championship and Qualifying Events
+   - Category B: International Title Tournaments
+   - Category C: National Championships
+   - Category D: Regional Championships
+   - Category E: Local Tournaments
+
+2.1.2 Each category has specific requirements regarding:
+   - Minimum number of dimensional planes in play
+   - Minimum number of participants
+   - Minimum rating requirements
+   - Certification level of tournament directors
+   - Energy monitoring equipment standards
+
+### 2.2 Tournament Formats
+
+2.2.1 Approved tournament formats include:
+   - Round Robin
+   - Swiss System
+   - Knockout
+   - Dimensional Progressive
+   - Energy-Balanced Swiss
+   - Quantum Superposition Format (5D+ only)
+
+2.2.2 Format selection must be announced at least 30 days prior to tournament registration closing.
+
+2.2.3 Format modifications during a tournament are prohibited except in cases of force majeure, requiring approval from a WMCF representative.
+
+### 2.3 Tournament Announcement and Registration
+
+2.3.1 Official tournaments must be announced at least:
+   - Category A: 180 days in advance
+   - Category B: 120 days in advance
+   - Category C: 90 days in advance
+   - Category D: 60 days in advance
+   - Category E: 30 days in advance
+
+2.3.2 Tournament announcements must include:
+   - Dimensional variant(s)
+   - Format and pairing system
+   - Time controls
+   - Energy allocation rules
+   - Entry requirements and fees
+   - Prize structure
+   - Dimensional equipment specifications
+
+2.3.3 Registration must close at least:
+   - Category A: 30 days before tournament start
+   - Category B: 21 days before tournament start
+   - Category C-E: 7 days before tournament start
+
+## SECTION 3: PLAYER ELIGIBILITY AND CONDUCT
+
+### 3.1 Eligibility Requirements
+
+3.1.1 Players must hold a valid WMCF ID and dimensional certification appropriate to the tournament level.
+
+3.1.2 Minimum rating requirements apply as follows:
+   - Category A: 2400+ dimensional rating
+   - Category B: 2200+ dimensional rating
+   - Category C: Determined by national federation
+   - Category D: Determined by regional federation
+   - Category E: Open to all certified players
+
+3.1.3 Wild card entries may be granted at the discretion of the organizing committee, not to exceed 5% of the total field.
+
+### 3.2 Player Conduct and Disciplinary Measures
+
+3.2.1 Players must adhere to the WMCF Code of Ethics at all times during tournament play.
+
+3.2.2 Prohibited behaviors include but are not limited to:
+   - Dimensional interference
+   - Energy manipulation outside legal game mechanics
+   - Unauthorized dimensional scanning
+   - Use of prohibited dimensional assistance devices
+   - Disruptive behavior affecting dimensional stability
+
+3.2.3 Penalties for violations include:
+   - Warning
+   - Energy penalty
+   - Game forfeiture
+   - Round disqualification
+   - Tournament disqualification
+   - Suspension from WMCF events
+   - Revocation of dimensional certification
+
+3.2.4 Appeals process for disciplinary actions is detailed in Appendix A.
+
+### 3.3 Dress Code and Equipment
+
+3.3.1 Players must wear the dimensional stabilization wristband at all times during play.
+
+3.3.2 Appropriate attire is required, including:
+   - Dimensional static-free clothing
+   - Non-reflective materials to prevent dimensional light interference
+   - Closed-toe shoes with grounding properties
+
+3.3.3 Personal equipment restrictions:
+   - No unauthorized dimensional lenses or viewers
+   - No electronic devices capable of dimensional analysis
+   - No materials that can disrupt energy field measurements
+
+## SECTION 4: TOURNAMENT OFFICIALS
+
+### 4.1 Tournament Director Qualifications
+
+4.1.1 Tournament directors must hold dimensional certification at least one level higher than the tournament category.
+
+4.1.2 Certification requirements:
+   - Category A: International Dimensional Arbiter (IDA)
+   - Category B: WMCF Dimensional Arbiter (WDA)
+   - Category C: National Dimensional Arbiter (NDA)
+   - Category D: Regional Dimensional Arbiter (RDA)
+   - Category E: Local Dimensional Arbiter (LDA)
+
+4.1.3 Tournament directors must complete recertification every two years, including updates on dimensional rules and energy management protocols.
+
+### 4.2 Dimensional Arbiters
+
+4.2.1 Each tournament must have at least:
+   - Category A: 1 arbiter per 10 players, minimum 5
+   - Category B: 1 arbiter per 15 players, minimum 3
+   - Category C: 1 arbiter per 20 players, minimum 2
+   - Category D: 1 arbiter per 25 players, minimum 1
+   - Category E: 1 arbiter per 30 players, minimum 1
+
+4.2.2 Dimensional arbiters are responsible for:
+   - Monitoring dimensional integrity
+   - Verifying legal moves across dimensions
+   - Measuring energy expenditure and generation
+   - Resolving dimensional disputes
+   - Enforcing time controls
+
+4.2.3 At least one arbiter must be certified in quantum observation for 5D+ tournaments.
+
+### 4.3 Technical Staff
+
+4.3.1 Required technical staff includes:
+   - Dimensional Equipment Technician
+   - Energy Field Monitor
+   - Temporal Synchronization Officer (4D+ only)
+   - Quantum State Observer (5D+ only)
+   - Strategic Plane Coordinator (6D only)
+
+4.3.2 Technical staff must be certified by the WMCF Technical Committee.
+
+4.3.3 Technical staff must verify and calibrate all equipment before each round.
+
+## SECTION 5: EQUIPMENT AND PLAYING CONDITIONS
+
+### 5.1 Board and Pieces
+
+5.1.1 All equipment must be WMCF-certified for the appropriate dimensional level.
+
+5.1.2 Board requirements:
+   - Dimensional stability rating of at least 9.5
+   - Energy conductivity within 0.02% of WMCF standard
+   - Quantum coherence of 99.7% or higher (5D+ only)
+   - Strategic resonance frequency matching WMCF standard ±0.001 Hz (6D only)
+
+5.1.3 Piece requirements:
+   - Dimensional signature matching WMCF standard
+   - Energy capacity appropriate to dimensional level
+   - Quantum entanglement capability (5D+ only)
+   - Strategic influence projection capability (6D only)
+
+5.1.4 Equipment must be inspected and certified before tournament start and recalibrated before each round.
+
+### 5.2 Playing Venue
+
+5.2.1 Venue requirements:
+   - Dimensional stability field throughout playing area
+   - Energy-neutral environment
+   - Quantum shielding (5D+ tournaments)
+   - Strategic plane stabilizers (6D tournaments)
+   - Temperature maintained at 20-22°C
+   - Humidity maintained at 40-60%
+   - Lighting at 800-1000 lux with anti-dimensional-glare properties
+
+5.2.2 Playing stations must be separated by at least:
+   - Category A: 2.5 meters
+   - Category B: 2.0 meters
+   - Category C-E: 1.5 meters
+
+5.2.3 Spectator areas must be separated from playing areas by dimensional barrier fields.
+
+### 5.3 Monitoring Equipment
+
+5.3.1 Required monitoring equipment:
+   - Energy flow analyzers
+   - Dimensional shift detectors
+   - Temporal synchronization monitors (4D+ only)
+   - Quantum state observers (5D+ only)
+   - Strategic influence meters (6D only)
+
+5.3.2 All monitoring equipment must be calibrated daily and certified by the tournament's Technical Director.
+
+5.3.3 Monitoring data must be recorded and archived for at least 90 days after tournament conclusion.
+
+## SECTION 6: TIME CONTROLS AND ENERGY MANAGEMENT
+
+### 6.1 Standard Time Controls
+
+6.1.1 Approved time controls by dimensional variant:
+   - 3D: 90 minutes for 40 moves, then 30 minutes to completion, with 30-second increment from move 1
+   - 4D: 120 minutes for 40 moves, then 45 minutes to completion, with 30-second increment from move 1
+   - 5D: 150 minutes for 40 moves, then 60 minutes to completion, with 30-second increment from move 1
+   - 6D: 180 minutes for 40 moves, then 75 minutes to completion, with 30-second increment from move 1
+
+6.1.2 Rapid play time controls:
+   - 3D: 25 minutes with 10-second increment
+   - 4D: 30 minutes with 10-second increment
+   - 5D: 40 minutes with 10-second increment
+   - 6D: 50 minutes with 10-second increment
+
+6.1.3 Blitz time controls:
+   - 3D: 5 minutes with 3-second increment
+   - 4D: 7 minutes with 3-second increment
+   - 5D: 10 minutes with 3-second increment
+   - 6D: 12 minutes with 3-second increment
+
+### 6.2 Energy Allocation and Management
+
+6.2.1 Standard energy allocation:
+   - Initial energy: 100 units × dimensional factor
+   - Regeneration rate: 5 units per move × dimensional efficiency factor
+   - Maximum capacity: 200 units × dimensional factor
+
+6.2.2 Dimensional factors:
+   - 3D: 1.0
+   - 4D: 1.5
+   - 5D: 2.0
+   - 6D: 3.0
+
+6.2.3 Energy expenditure limits:
+   - Maximum per move: 30% of current energy
+   - Minimum reserve requirement: 10 units × dimensional factor
+
+6.2.4 Energy penalties:
+   - Illegal move attempt: 10 units × dimensional factor
+   - Time violation: 5 units × dimensional factor
+   - Dimensional interference: 20 units × dimensional factor
+
+### 6.3 Time Expiration Protocol
+
+6.3.1 Upon time expiration, if the tournament rules permit continuation:
+   - The player's closest pawn (or least valuable piece if no pawns remain) must move backward one square
+   - If multiple pieces tie for "least valuable," the piece closest to the player's home rank is moved
+   - If no legal backward move exists, the game is forfeited
+
+6.3.2 Time expiration results in immediate game loss in:
+   - Blitz games
+   - Final time control period
+   - Games where specified in tournament regulations
+
+6.3.3 Time expiration protocol does not apply if the position is a theoretical draw regardless of moves.
+
+## SECTION 7: GAME PROCEDURES
+
+### 7.1 Starting the Game
+
+7.1.1 Before game start, players must:
+   - Verify dimensional calibration
+   - Confirm energy meter readings
+   - Activate dimensional stabilizers
+   - Synchronize temporal fields (4D+ only)
+   - Initialize quantum states (5D+ only)
+   - Establish strategic planes (6D only)
+
+7.1.2 The arbiter must verify all pre-game procedures are completed correctly.
+
+7.1.3 Games begin on the arbiter's signal after all verifications are complete.
+
+### 7.2 Move Execution and Recording
+
+7.2.1 Legal move execution requires:
+   - Clear dimensional intent
+   - Sufficient energy for the move
+   - Proper dimensional shift sequence
+   - Complete piece placement
+   - Timer activation
+
+7.2.2 Move recording must include:
+   - Standard algebraic notation
+   - Dimensional indicators
+   - Energy expenditure
+   - Temporal shift data (4D+ only)
+   - Quantum state changes (5D+ only)
+   - Strategic influence adjustments (6D only)
+
+7.2.3 Both players must maintain move records unless exempted by specific tournament regulations.
+
+### 7.3 Illegal Moves and Irregularities
+
+7.3.1 Illegal move detection:
+   - If detected before the opponent moves, the move must be retracted and a legal move made with the same piece if possible
+   - Energy penalty applies as per Section 6.2.4
+   - After three illegal moves in one game, the game is forfeited
+
+7.3.2 Dimensional irregularities:
+   - Minor irregularities are corrected by the arbiter without penalty
+   - Major irregularities require game restart from the last verified position
+   - Catastrophic irregularities (dimensional collapse) require game restart from the beginning
+
+7.3.3 Equipment failure:
+   - Temporary failure: game is paused until equipment is restored
+   - Permanent failure: game is adjourned and resumed with replacement equipment
+
+## SECTION 8: SCORING AND TIEBREAKS
+
+### 8.1 Scoring System
+
+8.1.1 Standard scoring:
+   - Win: 1 point
+   - Draw: 0.5 points
+   - Loss: 0 points
+
+8.1.2 Enhanced scoring (optional, must be specified in tournament regulations):
+   - Win: 3 points
+   - Draw with dimensional advantage: 2 points
+   - Draw: 1 point
+   - Loss with dimensional resistance: 0.5 points
+   - Loss: 0 points
+
+8.1.3 Energy efficiency bonus (optional, must be specified in tournament regulations):
+   - 0.1 bonus point for maintaining 85%+ energy efficiency throughout the game
+
+### 8.2 Tiebreak Systems
+
+8.2.1 Primary tiebreak systems:
+   - Direct encounter
+   - Dimensional Sonneborn-Berger
+   - Energy efficiency rating
+   - Number of wins
+   - Number of wins with black pieces
+
+8.2.2 Secondary tiebreak systems:
+   - Dimensional performance rating
+   - Average rating of opponents
+   - Drawing of lots
+
+8.2.3 Playoff tiebreaks:
+   - Required for first place in Category A and B tournaments
+   - Format: Two-game mini-match with accelerated time controls
+   - If still tied: Dimensional Armageddon game (White has more time, Black has draw odds)
+
+### 8.3 Withdrawals and Forfeits
+
+8.3.1 Player withdrawal:
+   - Before 50% of rounds completed: all results annulled
+   - After 50% of rounds completed: completed results stand, remaining games forfeited
+
+8.3.2 Forfeit scoring:
+   - Forfeiting player receives 0 points
+   - Opponent receives 1 point
+   - No energy efficiency bonus possible for either player
+
+8.3.3 Multiple forfeits result in tournament disqualification and potential WMCF sanctions.
+
+## SECTION 9: SPECIAL TOURNAMENT FORMATS
+
+### 9.1 Dimensional Progressive Tournament
+
+9.1.1 Format structure:
+   - Tournament begins with 3D chess
+   - Each subsequent round adds one dimension
+   - Final round played at maximum dimensional level
+
+9.1.2 Scoring adjustments:
+   - Win: 1 point × dimensional factor
+   - Draw: 0.5 points × dimensional factor
+   - Loss: 0 points
+
+9.1.3 Special requirements:
+   - Players must be certified for the maximum dimensional level
+   - Equipment must support dimensional transitions
+   - Arbiters must be certified for all dimensional levels
+
+### 9.2 Energy-Balanced Swiss System
+
+9.2.1 Format structure:
+   - Standard Swiss pairing system
+   - Energy allocation adjusted based on opponent strength
+   - Lower-rated players receive energy compensation against higher-rated opponents
+
+9.2.2 Energy compensation formula:
+   - EC = 10 × ln(Rating_Opponent / Rating_Player) × dimensional factor
+   - Minimum EC: 0
+   - Maximum EC: 30 units × dimensional factor
+
+9.2.3 Special requirements:
+   - Real-time energy monitoring
+   - Certified Energy Balance Officer
+   - Pre-tournament energy calibration for all players
+
+### 9.3 Quantum Superposition Tournament
+
+9.3.1 Format structure (5D+ only):
+   - Players compete in multiple games simultaneously
+   - Game states remain in superposition until observation
+   - Final round collapses all quantum states into definitive results
+
+9.3.2 Scoring system:
+   - Probability-weighted scoring based on quantum state analysis
+   - Measurement-induced scoring adjustments
+   - Entanglement bonuses for correlated results
+
+9.3.3 Special requirements:
+   - Quantum-certified arbiters
+   - Quantum state stabilization equipment
+   - Entanglement verification systems
+
+## SECTION 10: VARIANT-SPECIFIC RULES
+
+### 10.1 4D Temporal Chess
+
+10.1.1 Temporal shift regulations:
+   - Maximum 3 temporal shifts per 10 moves
+   - Minimum 3 moves between temporal shifts
+   - Temporal paradox resolution protocol as per Appendix B
+
+10.1.2 Temporal energy management:
+   - Temporal shifts require 20 energy units × temporal distance
+   - Temporal energy regeneration: 2 units per move
+   - Temporal energy storage limit: 100 units
+
+10.1.3 Temporal draw conditions:
+   - Triple temporal loop
+   - Temporal stalemate
+   - Insufficient temporal energy for checkmate
+
+### 10.2 5D Quantum Chess
+
+10.2.1 Quantum state regulations:
+   - Maximum 5 superpositions per game
+   - Quantum measurement after every 5 moves
+   - Quantum entanglement limited to 3 piece pairs
+
+10.2.2 Quantum energy management:
+   - Superposition creation: 30 energy units
+   - Entanglement creation: 25 energy units per piece pair
+   - Quantum measurement: 15 energy units
+
+10.2.3 Quantum-specific winning conditions:
+   - Quantum checkmate (all possible states contain checkmate)
+   - Quantum probability collapse (opponent's king has >95% probability of capture)
+   - Quantum energy depletion (opponent cannot maintain quantum coherence)
+
+### 10.3 6D Strategic Chess
+
+10.3.1 Strategic plane regulations:
+   - Maximum 3 active strategic planes
+   - Strategic plane shift requires 40 energy units
+   - Strategic influence limited to 5 squares per plane
+
+10.3.2 Strategic energy management:
+   - Strategic energy generation: 3 units per move
+   - Strategic energy storage limit: 150 units
+   - Strategic energy transfer between planes: 70% efficiency
+
+10.3.3 Strategic-specific winning conditions:
+   - Strategic dominance (control of all strategic planes)
+   - Strategic isolation (opponent's pieces cut off from strategic planes)
+   - Strategic energy superiority (2:1 advantage maintained for 10 moves)
+
+## SECTION 11: ASSISTANCE SYSTEMS REGULATIONS
+
+### 11.1 General Prohibition in Tournament Play
+
+11.1.1 All computational assistance systems, including Pi01Helper and Pi02Solver, are strictly prohibited in tournament play.
+
+11.1.2 Detection methods include:
+   - Energy pattern analysis
+   - Dimensional fluctuation monitoring
+   - Move consistency evaluation
+   - Neural pattern scanning
+   - Quantum decision analysis (5D+ only)
+
+11.1.3 Penalties for using prohibited assistance:
+   - First offense: Game forfeiture and tournament disqualification
+   - Second offense: One-year suspension from WMCF events
+   - Third offense: Permanent revocation of WMCF certification
+
+### 11.2 Tournament Mode Activation
+
+11.2.1 All official tournaments require Tournament Mode activation on all equipment.
+
+11.2.2 Tournament Mode includes:
+   - Automatic deactivation of all assistance systems
+   - Continuous monitoring for assistance attempts
+   - Secure logging of all dimensional activities
+   - Energy pattern verification
+
+11.2.3 Tournament Mode activation must be verified by the chief arbiter before round start.
+
+### 11.3 Time Expiration Protocol
+
+11.3.1 In tournament play, upon time expiration:
+   - The player's closest pawn to their home rank must move backward one square
+   - If no pawns remain, the least valuable piece must move backward one square
+   - If multiple pieces tie for "least valuable," the piece closest to the player's home rank is moved
+
+11.3.2 If no legal backward move exists, the game is forfeited.
+
+11.3.3 The arbiter must execute this move immediately upon time expiration.
+
+## SECTION 12: APPEALS AND DISPUTE RESOLUTION
+
+### 12.1 Appeals Committee
+
+12.1.1 Composition requirements:
+   - Category A: 5 members, at least 3 International Dimensional Arbiters
+   - Category B: 3 members, at least 2 WMCF Dimensional Arbiters
+   - Category C-E: 3 members, at least 1 certified Dimensional Arbiter
+
+12.1.2 Conflict of interest provisions:
+   - No committee member may rule on games involving players from their federation
+   - No committee member may rule on games they arbitrated
+   - No committee member may rule on games involving family members or students
+
+12.1.3 Appeals committee must be formed before tournament start and announced to all participants.
+
+### 12.2 Appeals Process
+
+12.2.1 Filing an appeal:
+   - Must be submitted in writing within 30 minutes of the incident
+   - Must specify the rule allegedly violated
+   - Must include a non-refundable appeal fee (returned if appeal is upheld)
+
+12.2.2 Appeal review process:
+   - Initial review by chief arbiter
+   - Full committee review if not resolved
+   - Decision by majority vote
+   - Decision announced within 2 hours when possible
+
+12.2.3 Appeal decisions are final and binding for the tournament.
+
+### 12.3 Dimensional Disputes
+
+12.3.1 Dimensional integrity challenges:
+   - Must be raised before the completion of 5 subsequent moves
+   - Require dimensional scan verification
+   - Chief Dimensional Arbiter has final authority
+
+12.3.2 Quantum state disputes (5D+ only):
+   - Require quantum state reconstruction
+   - Verification by certified Quantum Observer
+   - Resolution based on probability distribution analysis
+
+12.3.3 Strategic plane disputes (6D only):
+   - Require strategic influence mapping
+   - Verification by Strategic Plane Coordinator
+   - Resolution based on strategic energy flow analysis
+
+## SECTION 13: ANTI-CHEATING MEASURES
+
+### 13.1 Preventive Measures
+
+13.1.1 Pre-tournament screening:
+   - Dimensional signature verification
+   - Energy pattern baseline establishment
+   - Neural pattern recording
+   - Quantum state initialization (5D+ only)
+
+13.1.2 During tournament:
+   - Random dimensional scans
+   - Continuous energy monitoring
+   - Move pattern analysis
+   - Quantum entanglement detection (5D+ only)
+
+13.1.3 Physical security:
+   - Dimensional isolation of playing area
+   - Signal-blocking measures
+   - Personal scanning before and after rounds
+   - Restricted access to playing area
+
+### 13.2 Detection Methods
+
+13.2.1 Statistical analysis:
+   - Move matching with computational assistance
+   - Energy efficiency anomalies
+   - Dimensional shift patterns
+   - Decision consistency evaluation
+
+13.2.2 Technical detection:
+   - Unauthorized energy pattern detection
+   - Dimensional interference scanning
+   - Quantum anomaly detection (5D+ only)
+   - Strategic plane manipulation detection (6D only)
+
+13.2.3 Observational methods:
+   - Behavioral monitoring
+   - Suspicious player interactions
+   - Unusual energy management patterns
+   - Dimensional focus anomalies
+
+### 13.3 Investigation and Sanctions
+
+13.3.1 Investigation process:
+   - Initial evidence collection
+   - Technical analysis of game records
+   - Player interview
+   - Expert panel review
+   - Determination by Anti-Cheating Committee
+
+13.3.2 Burden of proof:
+   - Beyond reasonable doubt for severe sanctions
+   - Preponderance of evidence for minor sanctions
+   - Statistical evidence alone insufficient for severe sanctions
+
+13.3.3 Sanction scale:
+   - Warning
+   - Game forfeiture
+   - Tournament disqualification
+   - Rating penalty
+   - Suspension (6 months to lifetime)
+   - Revocation of titles and certifications
+
+## SECTION 14: WORLD CHAMPIONSHIP REGULATIONS
+
+### 14.1 Qualification System
+
+14.1.1 Qualification pathways:
+   - Continental Championships (top 2 from each continent)
+   - WMCF Grand Prix Series (top 3)
+   - WMCF Rating List (top 5 not otherwise qualified)
+   - Previous World Championship (finalist)
+   - Organizing federation wild card (1)
+   - WMCF President wild card (1)
+
+14.1.2 Qualification tournament:
+   - 16 players
+   - Double round robin
+   - Top 8 advance to Candidates Tournament
+
+14.1.3 Candidates Tournament:
+   - 8 players
+   - Double round robin
+   - Winner challenges World Champion
+
+### 14.2 Championship Match Format
+
+14.2.1 Match structure:
+   - 14 games
+   - Dimensional progression format (games 1-2: 3D, games 3-4: 4D, games 5-8: 5D, games 9-14: 6D)
+   - Time controls as per Section 6.1.1
+   - Rest days after games 2, 4, 8, and 12
+
+14.2.2 Scoring and winner determination:
+   - First player to 7.5 points wins
+   - If tied 7-7, tiebreak games as follows:
+     - Four rapid games (Section 6.1.2)
+     - If still tied, two blitz games (Section 6.1.3)
+     - If still tied, Dimensional Armageddon game
+
+14.2.3 Dimensional Armageddon game:
+   - White: 5 minutes + 3 seconds/move
+   - Black: 4 minutes + 3 seconds/move
+   - Black has draw odds
+   - Dimensional level chosen by player with higher energy efficiency in previous games
+
+### 14.3 Special Conditions
+
+14.3.1 Prize fund:
+   - Minimum 1,000,000 WMCF credits
+   - 60% to winner, 40% to runner-up
+   - Additional bonuses for dimensional achievements
+
+14.3.2 Playing conditions:
+   - Dedicated playing venue
+   - No other tournaments in same venue
+   - Spectator minimum distance: 5 meters
+   - Enhanced dimensional stability requirements
+   - Independent technical verification team
+
+14.3.3 Media and broadcasting:
+   - Multi-dimensional visualization required
+   - Energy flow visualization
+   - Expert commentary team including dimensional specialists
+   - Daily technical briefings
+   - Full dimensional recording for archival purposes
+
+## SECTION 15: FINAL PROVISIONS
+
+### 15.1 Rule Interpretation
+
+15.1.1 The WMCF Rules Committee is the final authority on rule interpretation.
+
+15.1.2 During tournaments, the chief arbiter has temporary interpretative authority.
+
+15.1.3 Novel situations not covered by these rules should be resolved based on:
+   - Analogous situations in these rules
+   - Fundamental principles of multi-dimensional chess
+   - Fairness and competitive integrity
+
+### 15.2 Implementation Timeline
+
+15.2.1 These rules take effect 90 days after official publication.
+
+15.2.2 Tournaments announced before publication but held after the effective date may use either these rules or the previous version, as specified in their announcement.
+
+15.2.3 World Championship cycle events must use the most current rules version.
+
+### 15.3 Appendices and Supplementary Documents
+
+15.3.1 The following appendices form an integral part of these rules:
+   - Appendix A: Appeals Procedures
+   - Appendix B: Temporal Paradox Resolution Protocol
+   - Appendix C: Energy Conversion Tables
+   - Appendix D: Official Tournament Formats
+   - Appendix E: Energy Management Training Program
+
+15.3.2 Supplementary documents published by the WMCF Technical Committee provide guidance but are not binding unless specifically referenced in these rules.
+
+15.3.3 In case of discrepancies between translations, the English version of these rules is authoritative.
+
+---
+
+These rules were adopted by the World Multi-Dimensional Chess Federation Executive Board on March 15, 2025, and take effect on June 15, 2025.
+
+[Official Seal of the World Multi-Dimensional Chess Federation]

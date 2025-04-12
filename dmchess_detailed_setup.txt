@@ -1,0 +1,173 @@
+# MULTI-DIMENSIONAL CHESS: DETAILED GAME SETUP
+
+## CIRCULAR DIMENSIONAL ARRANGEMENT
+
+Multi-dimensional chess employs a revolutionary approach to game space by arranging dimensions in a circular pattern rather than stacking them linearly. This circular arrangement represents the interconnected nature of dimensional space and allows for more fluid movement between dimensions.
+
+### Primary Dimensional Structure
+
+1. **Home Dimension (D0)**
+   - The central dimension where all pieces begin
+   - Resembles a traditional 8×8 chess board with standard piece arrangement
+   - Serves as the anchor point for all dimensional operations
+   - Contains the strongest dimensional gates
+
+2. **Adjacent Dimensions (D1, D2, D3, D4)**
+   - Arranged in a circle around the Home Dimension
+   - Each has a complete 8×8 board but with modified properties:
+     - D1: Enhanced vertical movement (pieces move more freely up and down)
+     - D2: Enhanced horizontal movement (pieces move more freely left and right)
+     - D3: Enhanced diagonal movement (pieces move more freely along diagonals)
+     - D4: Enhanced knight-pattern movement (pieces can make extended knight leaps)
+   - Connected to Home Dimension via primary gates
+   - Connected to each other via secondary gates
+
+3. **Outer Dimensions (D5, D6, D7)**
+   - Form an outer circle beyond the adjacent dimensions
+   - More abstract in nature with modified board geometries:
+     - D5: Toroidal board (edges connect to opposite edges)
+     - D6: Möbius strip configuration (creates one-sided board)
+     - D7: Hyperbolic board (distances expand toward edges)
+   - Connected to adjacent dimensions via tertiary gates
+   - Require more energy to access but offer strategic advantages
+
+### Dimensional Gates
+
+1. **Primary Gates**
+   - Located at the four corners and center of the Home Dimension
+   - Allow direct movement to any adjacent dimension
+   - Remain stable throughout gameplay
+   - Require minimal energy expenditure to traverse
+
+2. **Secondary Gates**
+   - Connect adjacent dimensions to each other
+   - Located at varying positions that shift every three turns
+   - Require moderate energy to traverse
+   - Can be temporarily blocked by specific piece configurations
+
+3. **Tertiary Gates**
+   - Connect adjacent dimensions to outer dimensions
+   - Initially hidden and must be discovered through specific piece movements
+   - Require substantial energy to traverse
+   - Offer significant strategic advantages when controlled
+
+4. **Quantum Gates**
+   - Rare, spontaneously appearing connections between any two dimensions
+   - Appear randomly based on piece density and energy patterns
+   - Allow instantaneous movement regardless of dimensional distance
+   - Disappear after a single use
+
+### Board Visualization
+
+The physical representation of multi-dimensional chess employs several methods to help players conceptualize the circular dimensional arrangement:
+
+1. **Central Physical Board**
+   - Represents the Home Dimension
+   - Standard chess board with additional markings indicating gate positions
+   - Contains physical pieces that players manipulate directly
+
+2. **Surrounding Transparent Layers**
+   - Represent adjacent dimensions
+   - Made of clear acrylic or similar material
+   - Contain lighter, translucent pieces
+   - Can be rotated to align with different dimensional configurations
+
+3. **Outer Reference Boards**
+   - Smaller boards representing outer dimensions
+   - Positioned around the main playing area
+   - Use distinctive piece styles to differentiate from other dimensions
+
+4. **Dimensional Connection Indicators**
+   - Illuminated pathways showing active gates
+   - Color-coded to indicate gate type and energy requirements
+   - Pulse patterns indicate gate stability and remaining duration
+
+### Piece Setup
+
+1. **Home Dimension (D0)**
+   - Traditional chess arrangement:
+     - Back row: Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook
+     - Front row: 8 Pawns
+   - Pieces have standard coloring with subtle dimensional markers
+
+2. **Adjacent Dimensions (D1-D4)**
+   - Initially empty except for "dimensional echoes"
+   - Echoes appear as translucent shadows of Home Dimension pieces
+   - Echoes cannot move independently until activated
+   - Activation occurs when a Home Dimension piece traverses a gate
+
+3. **Outer Dimensions (D5-D7)**
+   - Completely empty at game start
+   - No echoes present
+   - Special "dimensional seeds" appear at specific locations
+   - Seeds can be cultivated to spawn new pieces unique to outer dimensions
+
+### Energy Distribution
+
+1. **Dimensional Nexus Points**
+   - Special board positions that generate energy
+   - Primarily located at intersections of dimensional boundaries
+   - Controlling these points provides energy for dimensional movement
+   - Energy accumulates over time at controlled nexus points
+
+2. **Initial Energy Allocation**
+   - Each player begins with a fixed energy reserve
+   - Home Dimension operations require no energy
+   - Adjacent Dimension operations require minimal energy
+   - Outer Dimension operations require substantial energy
+
+3. **Energy Visualization**
+   - Represented by glowing intensity around pieces
+   - Color spectrum indicates energy type and compatibility
+   - Pulsing patterns show energy flow direction
+   - Connection lines display energy transfer between pieces
+
+### Identity Anchors
+
+1. **Player Identity Markers**
+   - Physical tokens representing player identity
+   - Positioned at the edge of the playing area
+   - Can be moved to different dimensional access points
+   - Determine which dimensions the player can directly influence
+
+2. **Identity Spectrum Display**
+   - Visual representation of player's current identity state
+   - Shows balance between fixed and fluid identity components
+   - Indicates dimensional affinities and restrictions
+   - Updates dynamically as gameplay progresses
+
+### Setup Procedure
+
+1. **Dimensional Calibration**
+   - Players jointly activate the central board
+   - Dimensions are aligned to starting positions
+   - Gate connections are established and verified
+   - Energy nexus points are charged to initial levels
+
+2. **Identity Establishment**
+   - Players select initial identity configurations
+   - Identity anchors are positioned
+   - Dimensional access permissions are set
+   - Starting energy allocations are distributed
+
+3. **Piece Placement**
+   - Home Dimension pieces are arranged in traditional formation
+   - Dimensional echoes automatically appear in adjacent dimensions
+   - Dimensional seeds are placed in outer dimensions
+   - Special pieces (if used) are positioned at designated locations
+
+4. **Gate Activation**
+   - Primary gates are activated (always active)
+   - Initial secondary gates are revealed
+   - Tertiary gates remain hidden
+   - First quantum gate probability is calculated
+
+5. **First Move Determination**
+   - Traditional white/first player determination
+   - Enhanced by dimensional affinity calculation
+   - Player with lower dimensional affinity receives energy compensation
+   - Initial move must be made in Home Dimension
+
+The circular arrangement of dimensions creates a game environment where spatial relationships are constantly shifting. Unlike traditional chess where the board remains static, multi-dimensional chess features a dynamic playing field where dimensions rotate, gates shift, and spatial relationships evolve throughout gameplay. This creates a rich strategic environment where players must consider not just the current board state, but potential future dimensional configurations.
+
+The game's circular dimensional structure also reflects its philosophical underpinnings: that dimensions are not hierarchical but interconnected, that movement is continuous rather than discrete, and that strategy must encompass both the immediate tactical situation and the broader dimensional landscape.

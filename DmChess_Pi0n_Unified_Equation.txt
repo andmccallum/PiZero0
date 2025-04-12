@@ -1,0 +1,27 @@
+
+# DmChess-Pi0n Unified Equation
+===========================================================
+
+The unified equation governing the DmChess-Pi0n integration is:
+
+$$\boxed{\mathcal{G}(t+\Delta t) = \mathcal{G}(t) + \int_{t}^{t+\Delta t} \left[ \sum_{d=1}^{11} \alpha_d(\tau) \cdot \left( \sum_{i=1}^{N_d} \kappa_i^d \circ \mathcal{G}_d(\tau) \right) \right] d\tau}$$
+
+Where:
+- $$\mathcal{G}(t)$$ is the game state at time $$t$$
+- $$\alpha_d(t)$$ is the weight of dimension $$d$$ at time $$t$$
+- $$\kappa_i^d$$ is the $$i$$-th kernel operating on dimension $$d$$
+- $$\circ$$ is the kernel application operator
+
+The energy distribution is governed by:
+
+$$\boxed{\frac{d\mathcal{E}_{\kappa_i}}{dt} = \eta_i(t) \cdot \mathcal{E}_{cube}(t) \cdot \mathcal{F}(\kappa_i, t)}$$
+
+And the kernel balancing is achieved through:
+
+$$\boxed{\omega_i^*(t) = \frac{\exp(\lambda_i(t))}{\sum_{j=1}^N \exp(\lambda_j(t))}}$$
+
+The holographic integration principle is:
+
+$$\boxed{\mathcal{H}(\mathcal{D}_i, \mathcal{D}_j) = \oint_{\partial \mathcal{D}_i} \mathcal{D}_j \cdot d\mathcal{S}}$$
+
+These four equations form the mathematical foundation of the DmChess-Pi0n integration.

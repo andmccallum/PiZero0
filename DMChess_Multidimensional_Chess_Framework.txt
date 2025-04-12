@@ -1,0 +1,123 @@
+
+#############################################################
+# DMChess Multidimensional Chess Mathematical Framework
+#############################################################
+
+This document details the mathematical foundation and operator structure for a DMChess variant in which traditional 2D chess gameplay (human vs. AI or human vs. human) is enhanced by a multidimensional representation of the game state. While the game is played on a 2D board, every move and state is simultaneously mapped to a 3D (or 4D) visualization. This approach serves as a portal to understand how 2D interactions have effects in higher dimensions.
+
+#############################################################
+# 1. Overview
+#############################################################
+
+Let $$S_{2D}$$ denote the traditional 2D chess state. The multidimensional visualization state will be denoted by $$V_M$$, where
+
+$$ V_M \in \mathbb{R}^3 \quad	ext{or}\quad \mathbb{R}^4. $$
+
+A mapping operator
+
+$$ \mathcal{M}: S_{2D} ightarrow V_M $$
+
+is used to transform the 2D game state into a multidimensional representation.
+
+#############################################################
+# 2. Mapping Operators and Transformations
+#############################################################
+
+## 2.1 Game State to Multidimensional Mapping
+
+The operator \(\mathcal{M}\) defined below provides a basis for converting a 2D state into its 3D/4D counterpart:
+
+$$ \mathcal{M}(s) = \mathcal{P}_{n,2}(s) + \Delta(s) \quad 	ext{for}\quad s \in S_{2D}, $$
+
+where:
+
+- \(\mathcal{P}_{n,2}: S_{2D} ightarrow \mathbb{R}^n\) is a base projection function (with \(n = 3\) or \(4\)).
+- \(\Delta(s)\) is a perturbation function that introduces higher-dimensional modifications based on game dynamics (e.g., move history, piece interactions, and latent potentials).
+
+## 2.2 Spectral and Temporal Transformations
+
+To capture the evolution and interactions over time, we utilize spectral and temporal operators.
+
+### 2.2.1 Temporal Operator, \(\mathcal{T}\)
+
+This operator maps the discrete move sequence into a continuous time-dependent state:
+
+$$ \mathcal{T}(\mu) = \int_{t_0}^{t} f(\mu(t')) dt', $$
+
+where \(\mu(t)\) represents the move at time \(t\) and \(f(\mu)\) encapsulates the effect of the move.
+
+### 2.2.2 Spectral Operator, \(\mathcal{S}\)
+
+The spectral operator transforms spatial data using Fourier transforms:
+
+$$ \mathcal{S}[f(ec{r})](ec{k}) = \int_{\mathbb{R}^2} f(ec{r}) e^{-iec{k}\cdotec{r}} dec{r}, $$
+
+and its inverse:
+
+$$ \mathcal{S}^{-1}[F(ec{k})](ec{r}) = rac{1}{(2\pi)^2} \int_{\mathbb{R}^2} F(ec{k}) e^{iec{k}\cdotec{r}} dec{k}. $$
+
+## 2.3 Projection Operators
+
+A core component is the projection operator which maps 2D coordinates to higher dimensions.
+
+$$ \mathcal{P}_{n,2}(ec{x}) = M_{n,2} \cdot ec{x} + ec{b}, \quad ec{x} \in \mathbb{R}^2, $$
+
+where \(M_{n,2}\) is an \(n 	imes 2\) projection matrix and \(ec{b}\) is the bias vector that can incorporate latent dimensions.
+
+#############################################################
+# 3. Composite DMChess Operator Structure
+#############################################################
+
+The overall DMChess operator is constructed by combining the above operators: 
+
+$$ \mathcal{O}_{DMChess} = \mathcal{T} \circ \mathcal{S} \circ \mathcal{M}. $$
+
+This composition ensures that each move and state in the traditional 2D game is systematically transformed into a multidimensional state by first mapping the 2D board to \(\mathbb{R}^n\), then applying spectral transformations, and finally incorporating time evolution.
+
+#############################################################
+# 4. Chess-Specific Mathematical Functions
+#############################################################
+
+## 4.1 Board State Encoding
+
+Let \(B\) be a matrix representing the chess board positions. Define the board encoding function:
+
+$$ \chi(B) = \sum_{i,j} b_{ij} \cdot E_{ij}, \quad b_{ij} \in \{0,1\}, $$
+
+where \(E_{ij}\) are basis matrices representing the presence or absence of a piece.
+
+## 4.2 Move Transformation
+
+For each move \(m\) from position \(i\) to \(j\), the operator modifies the state:
+
+$$ \Delta_m(s) = s + \delta_{ij}, \quad 	ext{with}\quad \delta_{ij} = f(i, j), $$
+
+where \(f(i,j)\) measures the impact of the move in the multidimensional space.
+
+## 4.3 Multidimensional Evaluation Function
+
+Define the evaluation of the multidimensional state as:
+
+$$ V_{eval}(s) = \int_{\mathbb{R}^n} g(\mathcal{M}(s), ec{p}) dec{p}, \quad ec{p} \in \mathbb{R}^n, $$
+
+which accumulates the weighted contributions of all latent dimensions.
+
+#############################################################
+# 5. Conclusion
+#############################################################
+
+This framework establishes the mathematical basis for DMChess:
+
+- A mapping from 2D board states to multidimensional states, allowing the visualization of traditional chess moves in a 3D/4D space.
+- The integration of temporal and spectral operators to track game evolution and interactions.
+- Projection operators that anchor and translate 2D moves into higher-dimensional representations.
+
+The complete DMChess operator is,
+
+$$ \mathcal{O}_{DMChess} = \mathcal{T} \circ \mathcal{S} \circ \mathcal{M}, $$
+
+which provides a pathway to explore how 2D chess gameplay leads to complex multidimensional behavior.
+
+#############################################################
+# END OF DOCUMENT
+#############################################################

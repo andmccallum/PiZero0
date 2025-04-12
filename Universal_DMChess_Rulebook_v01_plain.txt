@@ -1,0 +1,199 @@
+
+UNIVERSAL DMCHESS RULEBOOK - VERSION 01
+========================================
+
+TABLE OF CONTENTS
+-----------------
+1. INTRODUCTION
+2. GAME COMPONENTS
+3. DIMENSIONAL STRUCTURE
+4. PIECE MOVEMENT
+5. GAME MECHANICS
+6. SPECIAL RULES
+7. WINNING CONDITIONS
+8. TOURNAMENT REGULATIONS
+9. APPENDICES
+
+1. INTRODUCTION
+---------------
+1.1 DMChess (Dimensional Multi-Chess) is an 8-dimensional chess variant that extends traditional chess into multiple interconnected dimensions.
+
+1.2 This rulebook (Version 01) serves as the definitive reference for all official DMChess play.
+
+1.3 DMChess combines traditional chess strategy with spatial reasoning across multiple dimensions, creating a game of unprecedented depth and complexity.
+
+2. GAME COMPONENTS
+-----------------
+2.1 BOARDS
+  2.1.1 The game consists of 8 interconnected 8×8 boards, each representing a distinct dimension.
+  2.1.2 Each board is labeled D1 through D8 for identification.
+  2.1.3 Boards are arranged in a cube-like configuration with dimensional portals connecting them.
+
+2.2 PIECES
+  2.2.1 Each player begins with 16 standard pieces per dimension:
+    - 1 King
+    - 1 Queen
+    - 2 Rooks
+    - 2 Knights
+    - 2 Bishops
+    - 8 Pawns
+  2.2.2 Pieces are distinguished by color (Light and Dark) and dimensional markers.
+  2.2.3 Each piece has a dimensional energy level (DEL) ranging from 1-8.
+
+2.3 DIMENSIONAL PORTALS
+  2.3.1 Portals connect corresponding squares across different dimensions.
+  2.3.2 Portal locations are fixed at the start of the game but may shift according to Section 6.1.
+  2.3.3 Portals are bidirectional unless otherwise specified.
+
+3. DIMENSIONAL STRUCTURE
+-----------------------
+3.1 DIMENSIONAL HIERARCHY
+  3.1.1 The 8 dimensions exist in a non-linear relationship.
+  3.1.2 Dimensions D1-D3 form the Primary Cluster.
+  3.1.3 Dimensions D4-D6 form the Secondary Cluster.
+  3.1.4 Dimensions D7-D8 form the Tertiary Cluster.
+
+3.2 DIMENSIONAL ENERGY
+  3.2.1 Each dimension has a base energy level corresponding to its number.
+  3.2.2 Energy levels affect piece movement capabilities across dimensions.
+  3.2.3 Energy transfer between dimensions follows the Conservation Law (Section 6.2).
+
+3.3 DIMENSIONAL MAPPING
+  3.3.1 Adjacent dimensions share more portals than distant dimensions.
+  3.3.2 The dimensional distance formula is: Dist(Da,Db) = |a-b|.
+  3.3.3 Portal density between dimensions Da and Db equals 64/(Dist(Da,Db)+1).
+
+4. PIECE MOVEMENT
+---------------
+4.1 STANDARD MOVEMENT
+  4.1.1 Within a single dimension, pieces move according to traditional chess rules.
+  4.1.2 Kings move one square in any direction.
+  4.1.3 Queens move any number of squares diagonally, horizontally, or vertically.
+  4.1.4 Rooks move any number of squares horizontally or vertically.
+  4.1.5 Bishops move any number of squares diagonally.
+  4.1.6 Knights move in an L-shape: two squares horizontally or vertically, then one square perpendicular.
+  4.1.7 Pawns move one square forward (toward opponent's side) and capture diagonally.
+
+4.2 DIMENSIONAL MOVEMENT
+  4.2.1 Pieces may move across dimensions via portals if their DEL is sufficient.
+  4.2.2 To traverse from dimension Da to Db, a piece must have DEL ≥ |a-b|.
+  4.2.3 Dimensional movement counts as one move, plus any moves made in the destination dimension.
+  4.2.4 Pieces cannot end their move in a portal square.
+
+4.3 DIMENSIONAL ENERGY LEVEL (DEL)
+  4.3.1 Each piece begins with a DEL equal to its starting dimension.
+  4.3.2 DEL can be increased by occupying energy squares (Section 5.3).
+  4.3.3 Maximum DEL for any piece is 8.
+  4.3.4 When a piece captures another piece, it gains 1 DEL (up to the maximum).
+
+5. GAME MECHANICS
+---------------
+5.1 GAME SETUP
+  5.1.1 Players choose Light or Dark pieces.
+  5.1.2 Initial piece placement follows traditional chess arrangement on each dimension.
+  5.1.3 Players may distribute their Kings across any dimensions before play begins.
+  5.1.4 The Light player moves first.
+
+5.2 TURN SEQUENCE
+  5.2.1 Players alternate turns.
+  5.2.2 Each turn consists of exactly one move with one piece.
+  5.2.3 A move may include dimensional travel as per Section 4.2.
+  5.2.4 Players cannot pass their turn.
+
+5.3 ENERGY SQUARES
+  5.3.1 Each board contains 8 energy squares marked with "E".
+  5.3.2 A piece ending its move on an energy square increases its DEL by 1.
+  5.3.3 Energy squares recharge 3 turns after being used.
+  5.3.4 A piece cannot gain energy from the same square twice consecutively.
+
+5.4 CAPTURE
+  5.4.1 Pieces capture as in traditional chess by moving to a square occupied by an opponent's piece.
+  5.4.2 Captured pieces are removed from play.
+  5.4.3 Capturing a piece grants +1 DEL to the capturing piece.
+  5.4.4 Pieces can capture across dimensions if the move is otherwise legal.
+
+6. SPECIAL RULES
+--------------
+6.1 DIMENSIONAL SHIFT
+  6.1.1 After every 8 full turns (both players), portal locations shift according to the Dimensional Shift Table (Appendix A).
+  6.1.2 Players receive notification one turn before a shift occurs.
+  6.1.3 Pieces occupying a portal square during a shift are moved to the nearest unoccupied non-portal square.
+
+6.2 CONSERVATION LAW
+  6.2.1 The sum of all DELs on each dimension must remain within ±8 of the dimension's base energy.
+  6.2.2 If this law would be violated, the move is illegal.
+  6.2.3 The Conservation Law does not apply during the first 16 moves of the game.
+
+6.3 CASTLING
+  6.3.1 Castling follows traditional chess rules within a single dimension.
+  6.3.2 Cross-dimensional castling is permitted if:
+    - Both the King and Rook have not moved.
+    - All squares between them (including portal paths) are unoccupied.
+    - The King is not in check and does not pass through check.
+    - Both pieces have sufficient DEL for the dimensional travel.
+  6.3.3 Cross-dimensional castling counts as a dimensional move.
+
+6.4 EN PASSANT
+  6.4.1 En passant captures follow traditional chess rules within a single dimension.
+  6.4.2 En passant cannot be performed across dimensions.
+
+6.5 PAWN PROMOTION
+  6.5.1 Pawns promote upon reaching the eighth rank of any dimension.
+  6.5.2 Promotion options include Queen, Rook, Bishop, or Knight.
+  6.5.3 The promoted piece retains the pawn's DEL.
+  6.5.4 A pawn may promote multiple times if it reaches the eighth rank on multiple dimensions.
+
+7. WINNING CONDITIONS
+-------------------
+7.1 CHECKMATE
+  7.1.1 A player wins by checkmating all of the opponent's Kings.
+  7.1.2 A King is in checkmate when it is in check and no legal move can remove the check.
+  7.1.3 A player with at least one King not in checkmate may continue playing.
+
+7.2 DIMENSIONAL DOMINANCE
+  7.2.1 A player wins by achieving control of 5 or more dimensions simultaneously.
+  7.2.2 A dimension is controlled when a player has the only King present in that dimension.
+  7.2.3 Dimensional control must be maintained for a full turn to count toward victory.
+
+7.3 RESIGNATION
+  7.3.1 A player may resign at any time, conceding victory to the opponent.
+
+7.4 DRAW CONDITIONS
+  7.4.1 Stalemate: The player to move has no legal moves, but no King is in check.
+  7.4.2 Insufficient material: Neither player has sufficient material to checkmate.
+  7.4.3 Threefold repetition: The same position occurs three times with the same player to move.
+  7.4.4 50-move rule: 50 moves have been made by each player without a capture or pawn move.
+  7.4.5 Agreement: Players may agree to a draw at any time.
+
+8. TOURNAMENT REGULATIONS
+-----------------------
+8.1 TIME CONTROLS
+  8.1.1 Standard time control is 90 minutes per player for the first 40 moves, followed by 30 minutes for the remainder of the game.
+  8.1.2 Rapid time control is 25 minutes per player with a 10-second increment per move.
+  8.1.3 Blitz time control is 5 minutes per player with a 3-second increment per move.
+
+8.2 NOTATION
+  8.2.1 Moves are recorded using Extended Dimensional Algebraic Notation (EDAN).
+  8.2.2 EDAN format: [Piece][Origin Dimension][Origin Square]-[Destination Dimension][Destination Square]
+  8.2.3 Example: Qd2e4-d5f6 (Queen moves from e4 on dimension 2 to f6 on dimension 5)
+
+8.3 ADJUDICATION
+  8.3.1 Tournament directors may adjudicate games according to the DMChess Adjudication Protocol (Appendix B).
+  8.3.2 Players may appeal adjudications within 30 minutes of the decision.
+  8.3.3 The Chief Arbiter's decision on appeals is final.
+
+9. APPENDICES
+-----------
+9.1 APPENDIX A: DIMENSIONAL SHIFT TABLE
+  [Detailed portal shift patterns omitted for brevity]
+
+9.2 APPENDIX B: ADJUDICATION PROTOCOL
+  [Detailed adjudication procedures omitted for brevity]
+
+9.3 APPENDIX C: DIMENSIONAL ENERGY DIAGRAMS
+  [Detailed energy flow diagrams omitted for brevity]
+
+9.4 APPENDIX D: OFFICIAL TOURNAMENT FORMATS
+  [Detailed tournament structures omitted for brevity]
+
+END OF RULEBOOK

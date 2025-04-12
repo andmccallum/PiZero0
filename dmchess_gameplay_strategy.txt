@@ -1,0 +1,129 @@
+# MULTI-DIMENSIONAL CHESS: GAMEPLAY & STRATEGY GUIDE
+
+## INTRODUCTION TO GAMEPLAY
+
+Multi-dimensional chess expands traditional chess beyond the confines of a standard 8×8 board into a rich, layered experience where pieces move not just across a flat surface, but through multiple dimensions. This creates a strategic environment that challenges players to think in terms of depth, height, and alternative planes of existence.
+
+## GAME SETUP
+
+### Board Configuration
+- The game begins with a central "home dimension" resembling traditional chess, but with transparent overlays representing additional dimensions.
+- Each dimension has its own complete set of pieces, though they may appear visually distinct to represent their dimensional properties.
+- Dimensions are arranged in a circular pattern, allowing for continuous movement between them rather than abrupt transitions.
+
+### Player Identities
+- Players can choose to play as:
+  - A fixed identity with a consistent PioKernelId
+  - A "ghost" player with fluid identity that shifts throughout gameplay
+  - An observer who can temporarily manifest to make moves
+- The choice of identity affects how pieces respond and what dimensional moves are available.
+
+## PIECE MOVEMENT & DIMENSIONAL TRANSITIONS
+
+### Basic Movement
+- Each piece retains its traditional movement pattern within its home dimension.
+- Pawns move forward one square, capture diagonally, and can advance two squares on their first move.
+- Knights move in an L-shape, bishops diagonally, rooks horizontally and vertically, queens in any direction, and kings one square in any direction.
+
+### Dimensional Movement
+- Pieces can transition between dimensions using "dimensional gates" that appear at specific board locations.
+- Each piece type has unique dimensional movement capabilities:
+  - Knights can "leap" between dimensions without using gates
+  - Bishops can move diagonally across dimensional boundaries
+  - Rooks can create temporary tunnels between dimensions
+  - Queens combine all dimensional movement capabilities
+  - Kings can shift dimensions but only to adjacent ones
+  - Pawns gain dimensional movement abilities upon reaching the fifth rank
+
+### Dimensional Echoes
+- When a piece moves in one dimension, it creates "echoes" or "shadows" in adjacent dimensions.
+- These echoes can block movement, create tactical opportunities, or be manipulated for strategic advantage.
+- Players must track both physical pieces and their dimensional echoes.
+
+## EARLY GAME STRATEGY
+
+### Dimensional Development
+- Similar to traditional chess opening theory, rapid development of pieces is crucial.
+- However, players must decide whether to develop pieces within a single dimension or spread across multiple dimensions.
+- Early control of dimensional gates provides significant strategic advantage.
+
+### Identity Fluidity Tactics
+- Players using fluid identities can shift their strategic approach mid-game.
+- Early game may involve "identity probing" where players test their opponent's response to different identity states.
+- Establishing a strong dimensional presence before revealing your true strategic intent is often advantageous.
+
+### Dimensional Control vs. Material Advantage
+- The early game presents a fundamental choice: pursue material advantage in the home dimension or establish control across multiple dimensions.
+- Controlling multiple dimensions creates more tactical options but can leave home dimension vulnerable.
+- Successful players often secure a "dimensional anchor" - a strongly defended position in one dimension from which they can project power to others.
+
+## PLAYER INTERACTION
+
+### Direct Confrontation
+- Players can directly attack opponent pieces as in traditional chess.
+- Capturing occurs when a piece moves to a square occupied by an opponent's piece in the same dimension.
+- Pieces can also capture "through" dimensions under specific circumstances.
+
+### Dimensional Interference
+- Players can interfere with opponents by manipulating the dimensional fabric between them.
+- Creating dimensional barriers, redirecting gates, or establishing resonance patterns between dimensions can disrupt opponent strategies.
+- Dimensional interference often requires sacrificing immediate material advantage for long-term positional strength.
+
+### Collaborative Dimensions
+- In some variants, dimensions can be shared or collaboratively controlled.
+- Players may temporarily align their dimensional identities to create powerful combined effects.
+- These alliances are typically unstable and shift throughout gameplay.
+
+## ENERGY MANAGEMENT
+
+### Piece Energy States
+- Each piece carries an energy signature that fluctuates throughout the game.
+- High-energy pieces can move more freely between dimensions but are more visible to opponents.
+- Low-energy pieces are more difficult to detect but have limited dimensional mobility.
+
+### Energy Harvesting
+- Certain board positions generate energy that can be harvested by occupying pieces.
+- Strategic control of these energy sources is often as important as material advantage.
+- Energy can be transferred between pieces in the same dimension or across dimensional boundaries.
+
+### Energy Depletion
+- Frequent dimensional transitions deplete piece energy.
+- Depleted pieces become temporarily stranded in their current dimension.
+- Managing energy economy is a crucial aspect of successful long-term strategy.
+
+## WINNING CONDITIONS
+
+### Traditional Checkmate
+- As in traditional chess, placing the opponent's king in checkmate (inescapable check) wins the game.
+- However, kings can potentially escape check by shifting dimensions.
+
+### Dimensional Dominance
+- Controlling a majority of dimensions for a specified number of consecutive turns can trigger victory.
+- This encourages expansive play rather than focusing solely on the opponent's king.
+
+### Identity Collapse
+- Forcing an opponent's identity to collapse through specific dimensional manipulations can result in victory.
+- This typically requires coordinated attacks across multiple dimensions simultaneously.
+
+## ADVANCED CONCEPTS
+
+### Temporal Echoes
+- Moves made early in the game create "temporal echoes" that influence later possibilities.
+- Players can sometimes interact with these echoes to modify previous positions.
+- Mastering temporal echo manipulation allows for complex strategic planning.
+
+### Dimensional Resonance
+- When similar piece configurations appear across multiple dimensions, they create "resonance."
+- Resonant positions amplify both attacking and defensive capabilities.
+- Creating intentional resonance patterns is an advanced strategic technique.
+
+### Identity Merging
+- Under specific conditions, players can temporarily merge their identities.
+- This creates unpredictable but potentially powerful effects.
+- Identity merging is typically a high-risk, high-reward tactic used when conventional approaches fail.
+
+## CONCLUSION
+
+Multi-dimensional chess represents a profound evolution of traditional chess, incorporating concepts of identity fluidity, dimensional manipulation, and energy management. While the fundamental goal remains outmaneuvering your opponent, the expanded playing field of multiple dimensions creates nearly limitless strategic possibilities. Mastery requires not just understanding how pieces move, but how dimensions interact, how identities evolve, and how energy flows throughout the game system.
+
+The beauty of multi-dimensional chess lies in its balance of concrete rules with abstract concepts, creating a game that is simultaneously grounded in familiar chess principles while expanding into new realms of strategic thinking.
