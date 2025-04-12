@@ -1,0 +1,103 @@
+
+Operators, Functions, and Their Mathematical Equations
+=========================================================
+
+1. Portfolio Balance Monitoring Operator (Φ_balance):
+------------------------------------------------------
+Mathematical Equation:
+
+$$
+R_{current} = rac{F}{F + C \cdot V}
+$$
+
+Where:
+- F: Fiat balance
+- C: Coin holdings quantity
+- V: Value of one coin in fiat
+
+Target condition: $$R_{target} = 0.25$$
+
+Pseudo-code provided in the documentation.
+
+2. Mining Resource Allocation Operator (Φ_mining):
+-------------------------------------------------
+Mathematical Model:
+
+$$
+Y = \sum_{i=1}^{n} r_i \cdot e_i \cdot t
+$$
+
+Where:
+- Y: Expected yield (coins)
+- r_i: Resource allocation for mining node i (percentage)
+- e_i: Efficiency of mining node i
+- t: Time period
+
+Constraint: $$\sum_{i=1}^{n} r_i \leq 0.75$$
+
+3. Fee Optimization Operator (Φ_fee):
+--------------------------------------
+Mathematical Model for Total Fees:
+
+$$
+F_{total} = \sum_{i=1}^{m} f_i(t_i, v_i)
+$$
+
+Optimization Objective:
+
+$$\min F_{total}	ext{ subject to timing constraints}$$
+
+4. Mining-to-Fee Coverage Operator (Φ_mining_fee):
+---------------------------------------------------
+Mathematical Equation:
+
+$$
+C_{fee} = F_{projected} \cdot (1 + \delta)
+$$
+
+Where:
+- C_{fee}: Coin allocation for fees
+- F_{projected}: Projected transaction fees
+- \delta: Buffer factor (e.g., 0.1 for 10% buffer)
+
+5. Adaptive Mining Function (Φ_adaptive_mining):
+--------------------------------------------------
+Mathematical Model for Parameter Update:
+
+$$
+P_{t+1} = P_t + lpha \cdot 
+abla E(P_t)
+$$
+
+Where:
+- P_{t}: Current parameter set
+- 
+abla E(P_t): Gradient of efficiency with respect to parameters
+- lpha: Learning rate
+
+6. Portfolio Balance Management Function (Φ_portfolio_balance):
+----------------------------------------------------------------
+Mathematical Equation for Yield Allocation:
+
+$$
+Y_{allocation} = egin{cases}
+Y_{total} & 	ext{if } R_{fiat} \leq 0.25 \ 
+Y_{total} - rac{R_{fiat} - 0.25}{0.75} \cdot V_{total} & 	ext{if } R_{fiat} > 0.25
+\end{cases}
+$$
+
+7. Mining Efficiency Optimization Operator (Φ_efficiency):
+------------------------------------------------------------
+Mathematical Equation:
+
+$$
+E = rac{H}{P \cdot T}
+$$
+
+Where:
+- E: Mining efficiency
+- H: Hash rate
+- P: Power consumption
+- T: Thermal load factor
+
+Additional operators and functions follow a similar mathematical structure.
