@@ -1,0 +1,113 @@
+
+# DmChessLiveSolo: Mathematical Appendix
+
+## Formal Definitions of Game Operators
+
+### 1. Board Transition Operator (BT)
+
+$$ BT(p, b_1, b_2) = T(p, b_1) \rightarrow T(p, b_2) $$
+
+Where:
+- $p$ is the piece being transitioned
+- $b_1$ is the origin board
+- $b_2$ is the destination board
+- $T(p, b)$ represents the state of piece $p$ on board $b$
+
+The transition operation is subject to the following constraints:
+$$ BT(p, b_1, b_2) = \begin{cases}
+T(p, b_1) \rightarrow T(p, b_2), & \text{if } b_1 \text{ and } b_2 \text{ are adjacent} \\
+\text{undefined}, & \text{otherwise}
+\end{cases} $$
+
+The adjacency of boards is defined by the physical arrangement:
+- White Home is adjacent to Left Middle and Right Middle
+- Black Home is adjacent to Left Middle and Right Middle
+- Left Middle is adjacent to White Home, Black Home, and Right Middle
+- Right Middle is adjacent to White Home, Black Home, and Left Middle
+
+### 2. Influence Field Operator (IF)
+
+$$ IF(p, b_1, b_2) = V(p) \times \frac{1}{D(b_1, b_2)} $$
+
+Where:
+- $p$ is the piece exerting influence
+- $b_1$ is the origin board
+- $b_2$ is the target board
+- $V(p)$ is the base value of piece $p$
+- $D(b_1, b_2)$ is the distance between $b_1$ and $b_2$
+
+The base values of pieces are defined as:
+- Sovereign: 9
+- Rook: 5
+- Knight: 3
+- Bishop: 3
+- Pawn: 1
+- Additional pieces: Value depends on the piece type
+
+The distance function is defined as:
+$$ D(b_1, b_2) = \begin{cases}
+1, & \text{if } b_1 \text{ and } b_2 \text{ are adjacent} \\
+2, & \text{if } b_1 \text{ and } b_2 \text{ are diagonally opposite}
+\end{cases} $$
+
+### 3. Edge Continuity Operator (EC)
+
+$$ EC(e_1, e_2) = C(e_1) \equiv C(e_2) $$
+
+Where:
+- $e_1$ is an edge of one board
+- $e_2$ is an edge of another board
+- $C(e)$ is the coordinate system of edge $e$
+
+The coordinate mapping between connected edges is defined as:
+- For horizontal connections (left-right): $x_2 = 1, y_2 = y_1$
+- For vertical connections (top-bottom): $x_2 = x_1, y_2 = 1$
+- For diagonal connections: Special mapping based on the specific boards
+
+### 4. Sovereign Unity Operator (SU)
+
+$$ SU(S) = \sum_{i=1}^{4} (P(S, b_i) \times N(b_i)) $$
+
+Where:
+- $S$ is the Sovereign piece
+- $P(S, b_i)$ is the power function of the Sovereign on board $b_i$
+- $N(b_i)$ is the number of friendly pieces on board $b_i$
+
+The power function is defined as:
+$$ P(S, b_i) = \begin{cases}
+9, & \text{if } S \text{ is on board } b_i \\
+4.5, & \text{otherwise}
+\end{cases} $$
+
+## Application in Gameplay
+
+These operators interact to create the complete mathematical model of the game:
+
+$$ G(t+1) = F(G(t), M(t)) $$
+
+Where:
+- $G(t)$ is the game state at time $t$
+- $M(t)$ is the move made at time $t$
+- $F$ is the state transition function
+
+The state transition function incorporates all four operators:
+$$ F(G(t), M(t)) = \Omega(BT, IF, EC, SU)(G(t), M(t)) $$
+
+Where $\Omega$ is the integration function that combines the effects of all operators.
+
+## Strategic Implications
+
+The mathematical model reveals several key strategic insights:
+
+1. **Board Control Value**:
+   $$ BCV(b) = \sum_{p \in b} V(p) + \sum_{p \notin b} IF(p, p_{board}, b) $$
+
+2. **Transition Opportunity Index**:
+   $$ TOI(p) = \sum_{b \neq p_{board}} \sum_{s \in b} \frac{A(p, s)}{D(p_{board}, b)} $$
+   Where $A(p, s)$ is the attack potential of piece $p$ against square $s$.
+
+3. **Sovereign Safety Quotient**:
+   $$ SSQ(S) = \frac{\sum_{b} D(S_{board}, b) \times DF(b)}{\sum_{e \in E} IF(e, e_{board}, S_{board})} $$
+   Where $DF(b)$ is the defensive formation on board $b$ and $E$ is the set of enemy pieces.
+
+These strategic metrics provide a quantitative basis for evaluating positions and planning moves in the multi-board environment of DmChessLiveSolo.

@@ -1,0 +1,88 @@
+
+# DmChessLiveSolo: Mathematical Appendix
+
+## Formal Definitions of Game Operators
+
+### 1. Dimensional Transfer Operator (DT)
+
+$$ DT(p, d_1, d_2) = T(p, d_1) \rightarrow T(p, d_2) $$
+
+Where:
+- $p$ is the piece being transferred
+- $d_1$ is the origin dimension
+- $d_2$ is the destination dimension
+- $T(p, d)$ represents the state of piece $p$ in dimension $d$
+
+The transfer operation is subject to the following constraints:
+$$ DT(p, d_1, d_2) = \begin{cases}
+T(p, d_1) \rightarrow T(p, d_2), & \text{if } (x,y) \in P_{d_1,d_2} \\
+\text{undefined}, & \text{otherwise}
+\end{cases} $$
+
+Where $P_{d_1,d_2}$ is the set of portal coordinates connecting dimensions $d_1$ and $d_2$.
+
+### 2. Dimensional Influence Operator (DI)
+
+$$ DI(p, d) = \sum_{i=1}^{4} w_i \times I(p, d_i) $$
+
+Where:
+- $p$ is the piece exerting influence
+- $d$ is the target dimension
+- $w_i$ is the weight factor for dimension $i$
+- $I(p, d_i)$ is the influence function of piece $p$ in dimension $d_i$
+
+The influence function is defined as:
+$$ I(p, d_i) = \frac{V(p)}{1 + \delta(p, d, d_i)} $$
+
+Where:
+- $V(p)$ is the base value of piece $p$
+- $\delta(p, d, d_i)$ is the dimensional distance between dimensions $d$ and $d_i$ for piece $p$
+
+### 3. Sovereign Unity Operator (SU)
+
+$$ SU(S) = \prod_{i=1}^{4} (1 + P(S, d_i)) $$
+
+Where:
+- $S$ is the Sovereign piece
+- $P(S, d_i)$ is the power function of the Sovereign in dimension $d_i$
+
+The power function is defined as:
+$$ P(S, d_i) = \alpha_i \times C(S, d_i) $$
+
+Where:
+- $\alpha_i$ is the dimensional coefficient for dimension $i$
+- $C(S, d_i)$ is the control value of the Sovereign in dimension $d_i$
+
+### 4. Dimensional Resonance Operator (DR)
+
+$$ DR(d_1, d_2) = \alpha \times |\Phi(d_1) - \Phi(d_2)| $$
+
+Where:
+- $d_1, d_2$ are the dimensions being compared
+- $\alpha$ is the resonance coefficient
+- $\Phi(d)$ is the phase function of dimension $d$
+
+The phase function is defined as:
+$$ \Phi(d) = \beta_d \times \sum_{p \in d} V(p) $$
+
+Where:
+- $\beta_d$ is the phase coefficient for dimension $d$
+- $V(p)$ is the value of piece $p$
+
+## Application in Gameplay
+
+These operators interact to create the complete mathematical model of the game:
+
+$$ G(t+1) = F(G(t), M(t)) $$
+
+Where:
+- $G(t)$ is the game state at time $t$
+- $M(t)$ is the move made at time $t$
+- $F$ is the state transition function
+
+The state transition function incorporates all four operators:
+$$ F(G(t), M(t)) = \Omega(DT, DI, SU, DR)(G(t), M(t)) $$
+
+Where $\Omega$ is the integration function that combines the effects of all operators.
+
+This mathematical foundation ensures that the game maintains logical consistency while enabling the rich strategic depth of multidimensional play.

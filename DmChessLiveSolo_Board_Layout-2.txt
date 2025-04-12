@@ -1,0 +1,44 @@
+
+# DmChessLiveSolo: Visual Board Layout
+
++----------------+----------------+
+|                |                |
+|  MATERIAL      |  ETHEREAL      |
+|  DIMENSION     |  DIMENSION     |
+|                |                |
+|  Standard      |  Optional      |
+|  Chess Setup   |  Placement     |
+|  (Required for |  for Knights,  |
+|  Sovereign,    |  Bishops,      |
+|  Rooks, Pawns) |  Nexus, Shifters|
+|                |                |
++----------------+----------------+
+|                |                |
+|  CONCEPTUAL    |  TEMPORAL      |
+|  DIMENSION     |  DIMENSION     |
+|                |                |
+|  Optional      |  Optional      |
+|  Placement     |  Placement     |
+|  for Knights,  |  for Knights,  |
+|  Bishops,      |  Bishops,      |
+|  Nexus, Shifters|  Nexus, Shifters|
+|                |                |
++----------------+----------------+
+
+Portal Locations on Each Board:
+P = Portal Square
+
++----------------+
+| . . . . . . . . |
+| . . . . . . . . |
+| . . P . . P . . |
+| . . . . . . . . |
+| . . . . . . . . |
+| . . P . . P . . |
+| . . . . . . . . |
+| . . . . . . . . |
++----------------+
+
+Portal Connections:
+- All portals connect to the same coordinates on other dimensions
+- Example: A piece on portal (3,3) in Material dimension can transfer to (3,3) on any other dimension

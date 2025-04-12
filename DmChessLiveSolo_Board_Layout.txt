@@ -1,0 +1,38 @@
+
+# DmChessLiveSolo: Visual Board Layout
+
++----------------+----------------+
+|                |                |
+|  MATERIAL      |  TEMPORAL      |
+|  DIMENSION     |  DIMENSION     |
+|                |                |
+|  [S][N][ ][ ]  |  [ ][N][ ][ ]  |
+|  [S][ ][P][ ]  |  [ ][ ][P][ ]  |
+|  [ ][ ][ ][ ]  |  [ ][ ][ ][ ]  |
+|  [ ][ ][ ][ ]  |  [ ][ ][ ][ ]  |
+|                |                |
++----------------+----------------+
+|                |                |
+|  ENERGETIC     |  INFORMATIONAL |
+|  DIMENSION     |  DIMENSION     |
+|                |                |
+|  [ ][N][ ][ ]  |  [ ][ ][ ][ ]  |
+|  [ ][ ][P][ ]  |  [S][ ][P][ ]  |
+|  [ ][ ][ ][ ]  |  [ ][ ][ ][ ]  |
+|  [ ][ ][ ][ ]  |  [ ][ ][ ][ ]  |
+|                |                |
++----------------+----------------+
+
+Legend:
+[S] - Sentinel
+[N] - Navigator
+[P] - Pawn
+Sovereign not shown (moves across all dimensions)
+
+Portal connections between dimensions:
+- Material ↔ Temporal: Squares (1,1) and (8,8)
+- Material ↔ Energetic: Squares (1,8) and (8,1)
+- Material ↔ Informational: Squares (4,4) and (5,5)
+- Temporal ↔ Energetic: Squares (4,5) and (5,4)
+- Temporal ↔ Informational: Squares (2,7) and (7,2)
+- Energetic ↔ Informational: Squares (3,6) and (6,3)

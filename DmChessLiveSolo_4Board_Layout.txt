@@ -1,0 +1,34 @@
+
+# DmChessLiveSolo: Visual Board Layout
+
+Physical Arrangement of the 4 Boards:
+
++----------------+----------------+
+|                |                |
+|  LEFT MIDDLE   |  RIGHT MIDDLE  |
+|     BOARD      |     BOARD      |
+|                |                |
++----------------+----------------+
+|                |                |
+|  WHITE HOME    |  BLACK HOME    |
+|     BOARD      |     BOARD      |
+|                |                |
++----------------+----------------+
+      WHITE            BLACK
+      PLAYER           PLAYER
+
+Board Connections:
+- Each board connects to adjacent boards along shared edges
+- Moving off one board continues onto the connected board
+- The 4 boards form a continuous playing surface
+
+Initial Setup Requirements:
+- Pawns, Sovereign, and Rooks must be placed on home boards
+- Knights, Bishops, and additional pieces can be placed on any board
+- At least 2 pieces must be placed on each middle board
+
+Example of Board Transitions:
+- A Bishop on White Home board can move diagonally onto Left Middle board
+- A Rook on Black Home board can move straight onto Right Middle board
+- A Knight on Left Middle board can jump to any connected board
+- The Sovereign can move in any direction across board boundaries

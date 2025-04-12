@@ -1,0 +1,98 @@
+
+# DmChessLiveSolo: Mathematical Appendix
+
+## Formal Definitions of Game Operators
+
+### 1. Dimensional Transfer Operator (DT)
+
+$$ DT(p, d_1, d_2) = T(p, d_1) \rightarrow T(p, d_2) $$
+
+Where:
+- $p$ is the piece being transferred
+- $d_1$ is the origin dimension
+- $d_2$ is the destination dimension
+- $T(p, d)$ represents the state of piece $p$ in dimension $d$
+
+The transfer operation is subject to the following constraints:
+$$ DT(p, d_1, d_2) = \begin{cases}
+T(p, d_1) \rightarrow T(p, d_2), & \text{if } (x,y) \in P \\
+\text{undefined}, & \text{otherwise}
+\end{cases} $$
+
+Where $P$ is the set of portal coordinates: $\{(3,3), (3,6), (6,3), (6,6)\}$.
+
+For Nexus pieces, the portal set is expanded:
+$$ P_{Nexus} = P \cup \{(x,y) | (x,y) \text{ is occupied by a Nexus piece}\} $$
+
+### 2. Influence Field Operator (IF)
+
+$$ IF(p, d_1, d_2) = V(p) \times \frac{1}{D(d_1, d_2)} $$
+
+Where:
+- $p$ is the piece exerting influence
+- $d_1$ is the origin dimension
+- $d_2$ is the target dimension
+- $V(p)$ is the base value of piece $p$
+- $D(d_1, d_2)$ is the dimensional distance between $d_1$ and $d_2$
+
+The base values of pieces are defined as:
+- Sovereign: 9
+- Rook: 5
+- Knight: 3
+- Bishop: 3
+- Pawn: 1
+- Nexus: 7
+- Shifter: 4
+
+The dimensional distance function is defined as:
+$$ D(d_1, d_2) = |d_1 - d_2| + 1 $$
+
+Where dimensions are assigned numerical values:
+- Material: 1
+- Ethereal: 2
+- Conceptual: 3
+- Temporal: 4
+
+### 3. Portal Resonance Operator (PR)
+
+$$ PR(x, y, d_1, d_2) = \alpha \times (x^2 + y^2) \times |d_1 - d_2| $$
+
+Where:
+- $(x,y)$ are the coordinates of the portal
+- $d_1, d_2$ are the dimensions being connected
+- $\alpha$ is the resonance coefficient (default value: 0.01)
+
+The resonance value affects the strategic value of using specific portals for dimensional transfers.
+
+### 4. Sovereign Unity Operator (SU)
+
+$$ SU(S) = \sum_{i=1}^{4} (P(S, d_i) \times N(d_i)) $$
+
+Where:
+- $S$ is the Sovereign piece
+- $P(S, d_i)$ is the power function of the Sovereign in dimension $d_i$
+- $N(d_i)$ is the number of friendly pieces in dimension $d_i$
+
+The power function is defined as:
+$$ P(S, d_i) = \begin{cases}
+9, & \text{if } S \text{ is in dimension } d_i \\
+4.5, & \text{otherwise}
+\end{cases} $$
+
+## Application in Gameplay
+
+These operators interact to create the complete mathematical model of the game:
+
+$$ G(t+1) = F(G(t), M(t)) $$
+
+Where:
+- $G(t)$ is the game state at time $t$
+- $M(t)$ is the move made at time $t$
+- $F$ is the state transition function
+
+The state transition function incorporates all four operators:
+$$ F(G(t), M(t)) = \Omega(DT, IF, PR, SU)(G(t), M(t)) $$
+
+Where $\Omega$ is the integration function that combines the effects of all operators.
+
+This mathematical foundation ensures that the game maintains logical consistency while enabling the rich strategic depth of multidimensional play.

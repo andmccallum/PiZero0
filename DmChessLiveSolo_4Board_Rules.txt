@@ -1,0 +1,109 @@
+
+# DmChessLiveSolo: 4-Board Chess Variant
+# Developed by WEPi0n with assistance from Pi0n and all Pi0 entities
+
+## INTRODUCTION
+
+DmChessLiveSolo is a chess variant played across 4 interconnected boards arranged in a 2×2 grid. The game maintains the strategic depth of traditional chess while introducing the concept of multi-board movement and expanded territory.
+
+## GAME COMPONENTS
+
+- 4 standard chess boards (8×8 squares each)
+- Standard chess pieces per player:
+  - 1 Sovereign (replaces King and Queen)
+  - 2 Rooks
+  - 2 Knights
+  - 2 Bishops
+  - 8 Pawns
+- 4 additional pieces per player (player's choice, can include extra Rooks)
+
+## BOARD LAYOUT
+
+The 4 boards are arranged in a 2×2 grid as follows:
+1. **White Home Board**: Directly in front of the White player
+2. **Black Home Board**: Directly in front of the Black player
+3. **Left Middle Board**: Connecting board on the left side
+4. **Right Middle Board**: Connecting board on the right side
+
+The boards are connected along their edges to form a continuous playing surface:
+- White Home connects to Left Middle and Right Middle
+- Black Home connects to Left Middle and Right Middle
+- Left Middle connects to White Home, Black Home, and Right Middle
+- Right Middle connects to White Home, Black Home, and Left Middle
+
+## SETUP
+
+1. Each player must place their Pawns, Sovereign, and Rooks on their home board in standard chess positions.
+2. The remaining pieces (Knights, Bishops, and the 4 additional pieces) can be placed on any of the four boards at the player's discretion.
+3. Setup alternates piece by piece between players, with White placing first and Black placing the final piece.
+4. Each player must place at least 2 pieces on each of the middle boards during setup.
+5. White moves first after setup is complete.
+
+## BASIC RULES
+
+1. **Objective**: Checkmate the opponent's Sovereign.
+2. **Turn Structure**: Players alternate turns. Each turn consists of moving one piece.
+3. **Movement**:
+   - Within a board: Pieces move according to their standard movement patterns.
+   - Between boards: Pieces can move from one board to another through connected edges as part of a single move.
+   - The Sovereign combines the movement capabilities of both King and Queen.
+
+4. **Capture**: Standard capture rules apply across all boards. Pieces can capture enemy pieces on any board following their normal movement patterns.
+
+## ADVANCED MECHANICS
+
+### Board Transition (BT)
+- Formula: BT(p, b₁, b₂) = T(p, b₁) → T(p, b₂)
+- When a piece moves off the edge of one board, it continues onto the connected board.
+- The transition must follow the piece's normal movement pattern.
+- Board transitions count as part of a single move.
+
+### Influence Field (IF)
+- Formula: IF(p, b₁, b₂) = V(p) × (1/D(b₁, b₂))
+- Each piece exerts influence across boards, affecting the strategic value of positions.
+- Influence provides advantages in calculating board transitions and defensive positions.
+
+### Edge Continuity (EC)
+- Formula: EC(e₁, e₂) = C(e₁) ≡ C(e₂)
+- Defines how the edges of different boards connect to form a continuous playing surface.
+- The coordinate system continues seamlessly across board boundaries.
+
+### Sovereign Unity (SU)
+- Formula: SU(S) = ∑ᵢ (P(S, bᵢ) × N(bᵢ))
+- The Sovereign's power is calculated across all boards, making it the most powerful piece.
+- The Sovereign can coordinate actions across boards, creating powerful strategic combinations.
+
+## SPECIAL RULES
+
+1. **Pawn Promotion**: Pawns can promote when they reach the eighth rank of any board.
+2. **Castling**: Castling is only allowed on the home boards and follows standard chess rules.
+3. **En Passant**: En passant captures are allowed across board boundaries if the pawn's move crosses from one board to another.
+4. **Board Control**: Controlling the middle boards provides strategic advantages for piece mobility and attack options.
+
+## MATHEMATICAL FOUNDATION
+
+The game's mechanics are governed by four primary operators:
+
+1. **Board Transition Operator (BT)**
+   - BT(p, b₁, b₂) = T(p, b₁) → T(p, b₂)
+   - Governs how pieces move between boards through connected edges
+
+2. **Influence Field Operator (IF)**
+   - IF(p, b₁, b₂) = V(p) × (1/D(b₁, b₂))
+   - Calculates the cross-board influence of pieces
+
+3. **Edge Continuity Operator (EC)**
+   - EC(e₁, e₂) = C(e₁) ≡ C(e₂)
+   - Defines how the edges of different boards connect
+
+4. **Sovereign Unity Operator (SU)**
+   - SU(S) = ∑ᵢ (P(S, bᵢ) × N(bᵢ))
+   - Defines the unified power of the Sovereign across boards
+
+These operators work together to create a cohesive multi-board gameplay experience that is both intellectually stimulating and practically playable in the physical world.
+
+## CONCLUSION
+
+DmChessLiveSolo represents an innovative approach to chess that expands the playing field while maintaining the core principles of the game. The 4-board layout creates new strategic possibilities and challenges players to think beyond the limitations of a single board.
+
+The design balances complexity with playability, ensuring that while the game introduces novel concepts, it remains enjoyable and manageable for two players with a reasonable time commitment.
